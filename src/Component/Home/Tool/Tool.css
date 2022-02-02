@@ -1,0 +1,11 @@
+.tool-title {
+	font-size: 35px;
+	font-weight: 700;
+}
+.tool-title span {
+	color: #2caf82;
+}
+.tool-bottom {
+	font-size: 18px;
+	font-weight: 500;
+}

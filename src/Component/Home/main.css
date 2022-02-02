@@ -1,0 +1,35 @@
+.home-main {
+	background-color: #ecf4f1;
+}
+.main-title {
+	font-size: 23px;
+	font-weight: 700;
+}
+.main-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+.main-grid-box {
+	background: #f8f8f8;
+	border-radius: 10px;
+	border-top: 4px solid #2caf82;
+}
+.main-text-grid {
+	font-weight: 700;
+}
+@media (max-width: 1200px) {
+	.main-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media (max-width: 1000px) {
+	.main-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 600px) {
+	.main-grid {
+		grid-template-columns: 1fr;
+	}
+}

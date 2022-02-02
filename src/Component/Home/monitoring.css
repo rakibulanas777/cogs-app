@@ -1,0 +1,34 @@
+.monitoring {
+	background-color: #2caf82;
+}
+.monitoring-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.inventory {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.377);
+	border-right: 1px solid rgba(255, 255, 255, 0.24);
+}
+.inventory-title {
+	font-size: 25px;
+	color: white;
+	font-weight: 600;
+}
+.survey {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.377);
+}
+.inventory-deatails {
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+@media (max-width: 1000px) {
+	.monitoring-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 600px) {
+	.monitoring-grid {
+		grid-template-columns: 1fr;
+	}
+}

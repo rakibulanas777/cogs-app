@@ -1,0 +1,85 @@
+.home {
+	background-color: #ebebeb;
+}
+.header-text {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 168.19%;
+	text-align: center;
+	color: #000000;
+}
+.header-subtitle {
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 168.19%;
+	text-align: center;
+	color: #2caf82;
+}
+.left-btn {
+	padding: 16px 22px;
+	width: 13rem;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background-color: #2caf82;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+.right-btn {
+	padding: 16px 22px;
+	width: 13rem;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background-color: #ffffff;
+	color: #2caf82;
+	font-size: 18px;
+	font-weight: 700;
+}
+.header-home-video {
+	background: url("../Assets//Images//Homepage.png");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.play-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.play-circle {
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	position: relative;
+}
+.fa-play {
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #2caf82;
+}
+.design-export {
+	background-color: #2caf82;
+}
+.design-export-title {
+	font-size: 25px;
+	color: white;
+	font-weight: 700;
+}
+.design-export-details {
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+}
