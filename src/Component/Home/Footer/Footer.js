@@ -4,6 +4,17 @@ import "./Footer.css";
 const Footer = () => {
 	return (
 		<footer class="footer">
+			<div className="container retalive">
+				<div className="col-10 col-lg-8 position-footer p-4 mx-auto">
+					<div className="position-footer-title text-center mt-5 mb-4">
+						Ready to Boost Your Sales and Outrun your Competitions?
+					</div>
+					<div className="button-part mb-5 text-center">
+						<button className="right-btn mx-3">Sign up Today</button>
+						<button className="right-btn mx-3">Request a Demo</button>
+					</div>
+				</div>
+			</div>
 			<div class="container ">
 				<div class="row footer-grid">
 					<div class="footer-col-30">
@@ -74,6 +85,9 @@ const Footer = () => {
 							</div>
 						</ul>
 					</div>
+				</div>
+				<div className="copyright-part text-center p-3 border-top">
+					Copyright © 2022. Visual COGS
 				</div>
 			</div>
 		</footer>

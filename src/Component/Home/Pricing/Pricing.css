@@ -1,0 +1,24 @@
+.pricing-title {
+	font-size: 24px;
+	font-weight: 600;
+}
+.pricing {
+	background-color: white;
+}
+.pricing-deatails {
+	color: #2caf82;
+}
+.price span {
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.price-deatils {
+	font-size: 20px;
+	font-weight: 700;
+}
+.pricing-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}

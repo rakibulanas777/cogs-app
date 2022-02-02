@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo from "../Images/logo.png";
+import { NavLink } from "react-router-dom";
+import logo from "../Images/Group 4.png";
 const Shared = () => {
 	const [color, setColor] = useState(false);
 	const changeColor = () => {
@@ -14,9 +15,9 @@ const Shared = () => {
 	return (
 		<nav className="navbar navbar-expand-lg box-shadow d-none d-lg-block">
 			<div className="container mb-5">
-				<a className="navbar-brand" href="#home">
+				<NavLink className="navbar-brand" to="/">
 					<img src={logo} alt="" className="logo img-fluid" />
-				</a>
+				</NavLink>
 				<button
 					class="navbar-toggler collapsed"
 					type="button"
@@ -33,19 +34,19 @@ const Shared = () => {
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item  mx-2 mb-lg-0 mb-2">
-							<a class="nav-link a-link" href="#about">
+							<NavLink className="nav-link a-link" to="/product">
 								Product
-							</a>
+							</NavLink>
 						</li>
 						<li class="nav-item mx-2 mb-lg-0 mb-2">
-							<a class="nav-link  a-link" href="#features">
+							<NavLink className="nav-link  a-link" to="/pricing">
 								Pricing
-							</a>
+							</NavLink>
 						</li>
 						<li class="nav-item mx-2 mb-lg-0 mb-2">
-							<a class="nav-link  a-link" href="#pricing">
+							<NavLink className="nav-link  a-link" to="/resources">
 								Resources
-							</a>
+							</NavLink>
 						</li>
 						<li class="nav-item mx-2 mb-lg-0 mb-2">
 							<a class="nav-link  a-link" href="#Testimonials">

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../../Images/Group 4.png";
 import "./Navbar.css";
 
@@ -22,9 +23,13 @@ const Navbar = () => {
 			}
 		>
 			<div className="container">
-				<a className="navbar-brand d-lg-none d-inline-block" href="#">
+				<NavLink
+					to="/"
+					className="navbar-brand d-lg-none d-inline-block"
+					href="#"
+				>
 					<img src={logo} className="img-fluid" alt="" />
-				</a>
+				</NavLink>
 				<button
 					class="navbar-toggler collapsed"
 					type="button"

@@ -10,6 +10,7 @@ import sheild from "../Images/teenyicons_shield-tick-solid.png";
 import Footer from "./Footer/Footer";
 import CustomArrows from "./Slider/Slider";
 import PreviousNextMethods from "./Slider/Catosoul";
+import Pricing from "./Pricing/Pricing";
 
 const Header = () => {
 	return (
@@ -43,6 +44,7 @@ const Header = () => {
 			<Visual />
 			<Monitoring />
 			<Tool />
+			<Pricing />
 			<CustomArrows />
 			<PreviousNextMethods />
 			<div className="design-export mb-5 p-4">

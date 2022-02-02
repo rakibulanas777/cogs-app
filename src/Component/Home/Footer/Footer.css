@@ -8,13 +8,30 @@ ul {
 .footer {
 	background-color: #ffffff;
 	padding: 70px 0;
-	margin-top: 10rem;
+	position: relative;
+	margin-top: 20rem;
+}
+.retalive {
+	position: absolute;
+	top: -20%;
+	left: 50%;
+	transform: translate(-50%, -20%);
+}
+.position-footer {
+	background-color: #36b37e;
+	border-radius: 10px;
 }
 .footer-grid {
 	display: grid;
+	margin-top: 10rem;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.329);
 	grid-template-columns: 2.5fr 1.5fr 1fr 1fr 1.5fr 2fr;
 }
-
+.position-footer-title {
+	font-size: 28px;
+	color: white;
+	font-weight: 700;
+}
 .footer-col h5 {
 	font-size: 18px;
 	color: #0c0c0c;
