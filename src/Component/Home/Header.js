@@ -8,6 +8,9 @@ import Tool from "./Tool/Tool";
 import Visual from "./Visual";
 import sheild from "../Images/teenyicons_shield-tick-solid.png";
 import Footer from "./Footer/Footer";
+import CustomArrows from "./Slider/Slider";
+import PreviousNextMethods from "./Slider/Catosoul";
+
 const Header = () => {
 	return (
 		<div className="home">
@@ -40,6 +43,8 @@ const Header = () => {
 			<Visual />
 			<Monitoring />
 			<Tool />
+			<CustomArrows />
+			<PreviousNextMethods />
 			<div className="design-export mb-5 p-4">
 				<div className="container mt-5 mb-5">
 					<div className="col-10 mx-auto">
