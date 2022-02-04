@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import tick from "../../Images/Vector (3).png";
 import "./Pricing.css";
 const Pricing = () => {
+	const [color, setColor] = useState(false);
+	const [color1, setColor1] = useState(false);
+	const [color2, setColor2] = useState(false);
 	return (
 		<div className="pricing p-4 mt-5 mb-5">
 			<div className="container">
@@ -12,14 +15,15 @@ const Pricing = () => {
 				<div className="pricing-deatails text-center mb-4">
 					We plan to change that with our product.
 				</div>
-				<div className="pricing-grid">
+				{/* pricing grid */}
+				<div className="pricing-grid mb-5">
 					{/* price 1 */}
-					<div className="pricing-grid-item p-3">
-						<div className="d-flex flex-column justify-content-between">
+					{color ? (
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span>$999</span>/month
+										<span className="me-3 ">$999</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -29,7 +33,7 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Essential ARA Reports
 									</div>
 								</div>
 
@@ -37,9 +41,14 @@ const Pricing = () => {
 									<div className="img-tick">
 										<img src={tick} width="20px" alt="" />
 									</div>
-									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+									<div className="tool-tick-text mx-3">Exportable Tables</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
 									</div>
+									<div className="tool-tick-text mx-3">Daily updates</div>
 								</div>
 
 								<div className="d-flex tool-bottom mt-3">
@@ -47,31 +56,26 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
-									</div>
-								</div>
-
-								<div className="d-flex tool-bottom mt-3">
-									<div className="img-tick">
-										<img src={tick} width="20px" alt="" />
-									</div>
-									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Complete Historic Data
 									</div>
 								</div>
 							</div>
 							<div className="button-part mb-5 mt-3 text-center">
-								<button className="left-btn w-100 mx-3">Request a Demo</button>
+								<button
+									className="btn-withoutselect w-100 d-flex justify-content-between align-items-center"
+									onClick={() => setColor(!color)}
+								>
+									<span>Request a Demo </span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
 							</div>
 						</div>
-					</div>
-					{/* price 1 */}
-					<div className="pricing-grid-item p-3">
-						<div className="d-flex flex-column justify-content-between">
+					) : (
+						<div className="pricing-grid-item shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span>$999</span>/month
+										<span className="me-3 color ">$799</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -81,7 +85,7 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Essential ARA Reports
 									</div>
 								</div>
 
@@ -89,9 +93,14 @@ const Pricing = () => {
 									<div className="img-tick">
 										<img src={tick} width="20px" alt="" />
 									</div>
-									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+									<div className="tool-tick-text mx-3">Exportable Tables</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
 									</div>
+									<div className="tool-tick-text mx-3">Daily updates</div>
 								</div>
 
 								<div className="d-flex tool-bottom mt-3">
@@ -99,31 +108,28 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
-									</div>
-								</div>
-
-								<div className="d-flex tool-bottom mt-3">
-									<div className="img-tick">
-										<img src={tick} width="20px" alt="" />
-									</div>
-									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Complete Historic Data
 									</div>
 								</div>
 							</div>
 							<div className="button-part mb-5 mt-3 text-center">
-								<button className="left-btn w-100 mx-3">Request a Demo</button>
+								<button
+									className="btn-withselect w-100 d-flex justify-content-between align-items-center"
+									onClick={() => setColor(!color)}
+								>
+									<span>Request a Demo </span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
 							</div>
 						</div>
-					</div>
-					{/* price 1 */}
-					<div className="pricing-grid-item p-3">
-						<div className="d-flex flex-column justify-content-between">
+					)}
+					{/* price 2 */}
+					{color1 ? (
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span>$999</span>/month
+										<span className="me-3 ">$999</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -133,7 +139,7 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Essential ARA Reports
 									</div>
 								</div>
 
@@ -141,9 +147,14 @@ const Pricing = () => {
 									<div className="img-tick">
 										<img src={tick} width="20px" alt="" />
 									</div>
-									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+									<div className="tool-tick-text mx-3">Exportable Tables</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
 									</div>
+									<div className="tool-tick-text mx-3">Daily updates</div>
 								</div>
 
 								<div className="d-flex tool-bottom mt-3">
@@ -151,8 +162,40 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Complete Historic Data
 									</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily Emails</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Customer Reviews</div>
+								</div>
+							</div>
+							<div className="button-part mb-5 mt-3 text-center">
+								<button
+									className="btn-withoutselect w-100 d-flex justify-content-between align-items-center"
+									onClick={() => setColor1(!color1)}
+								>
+									<span>Request a Demo </span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
+							</div>
+						</div>
+					) : (
+						<div className="pricing-grid-item shadow p-3">
+							<div className="mb-5">
+								<div className="title-part border-bottom mb-3 p-3">
+									<div className="price mb-3">
+										<span className="me-3 color ">$799</span>/month
+									</div>
+									<div className="price-deatils">Amazon Standard</div>
 								</div>
 
 								<div className="d-flex tool-bottom mt-3">
@@ -160,15 +203,198 @@ const Pricing = () => {
 										<img src={tick} width="20px" alt="" />
 									</div>
 									<div className="tool-tick-text mx-3">
-										Increase in revenue/sales
+										Essential ARA Reports
+									</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Exportable Tables</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily updates</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">
+										Complete Historic Data
+									</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily Emails</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Customer Reviews</div>
+								</div>
+							</div>
+							<div className="button-part mb-5 mt-3 text-center">
+								<button
+									className="btn-withselect w-100 d-flex justify-content-between align-items-center"
+									onClick={() => setColor1(!color1)}
+								>
+									<span>Request a Demo </span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
+							</div>
+						</div>
+					)}
+					{/* price 3 */}
+					{color2 ? (
+						<div className="pricing-grid-item  p-3">
+							<div className="mb-5">
+								<div className="title-part border-bottom mb-3 p-3">
+									<div className="price mb-3">
+										<span className="me-3 ">$999</span>/month
+									</div>
+									<div className="price-deatils">Amazon Standard</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Exportable Tables</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily Updates</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">
+										Complete historic data
+									</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily Emails</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Customer Experience</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Content Analysis</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">
+										Custom Data Integration
 									</div>
 								</div>
 							</div>
 							<div className="button-part mb-5 mt-3 text-center">
-								<button className="left-btn w-100 mx-3">Request a Demo</button>
+								<button
+									className="btn-withoutselect w-100 d-flex justify-content-between align-items-center"
+									onClick={() => setColor2(!color2)}
+								>
+									<span>Request a Demo </span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
 							</div>
 						</div>
-					</div>
+					) : (
+						<div className="pricing-grid-item shadow p-3">
+							<div className="mb-5">
+								<div className="title-part border-bottom mb-3 p-3">
+									<div className="price mb-3">
+										<span className="me-3 color ">$799</span>/month
+									</div>
+									<div className="price-deatils">Amazon Standard</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Exportable Tables</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily Updates</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">
+										Complete historic data
+									</div>
+								</div>
+
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Daily Emails</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Customer Experience</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">Content Analysis</div>
+								</div>
+								<div className="d-flex tool-bottom mt-3">
+									<div className="img-tick">
+										<img src={tick} width="20px" alt="" />
+									</div>
+									<div className="tool-tick-text mx-3">
+										Custom Data Integration
+									</div>
+								</div>
+							</div>
+							<div className="button-part mb-5 mt-3 text-center">
+								<button
+									className="btn-withselect w-100 d-flex justify-content-between align-items-center"
+									onClick={() => setColor2(!color2)}
+								>
+									<span>Request a Demo </span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
+							</div>
+						</div>
+					)}
 				</div>
 			</div>
 		</div>
