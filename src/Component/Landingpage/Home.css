@@ -10,15 +10,14 @@
 	background-repeat: no-repeat;
 }
 .from-box {
-	background-color: white;
-	border-radius: 10px;
+	background-color: #f8f8f8;
+	border-radius: 14px;
 }
 .from-text {
-	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 27px;
-	line-height: 47px;
+	font-size: 23px;
+
 	/* identical to box height, or 146% */
 
 	text-align: center;
@@ -26,4 +25,30 @@
 	/* Heading */
 
 	color: #212b27;
+}
+.home-input {
+	background-color: white;
+	border-radius: 25px !important;
+	padding: 10px 18px;
+	border: none;
+}
+::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #97979763;
+	font-weight: 500;
+}
+.right-home-title {
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+}
+.landing-page-deatils {
+	font-size: 18px;
+	font-weight: 600;
+	color: #2caf82;
+}
+.landing-tick-text {
+	font-size: 16px;
+	font-size: 600;
+	color: white;
 }

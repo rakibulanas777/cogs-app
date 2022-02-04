@@ -5,6 +5,7 @@ import Navbar from "./Component/Shared/Navbar/Navbar";
 import Home from "./Component/Landingpage/Home";
 import Header from "./Component/Home/Header";
 import Products from "./Component/Products/Products";
+import Blog from "./Component/Blog/Blog";
 
 function App() {
 	return (
@@ -12,7 +13,7 @@ function App() {
 			<Router>
 				<Switch>
 					<Route exact path="/">
-						<Header />
+						<Home />
 					</Route>
 					<Route exact path="/home">
 						<Header />
@@ -25,6 +26,9 @@ function App() {
 					</Route>
 					<Route exact path="/resources">
 						<Products />
+					</Route>
+					<Route exact path="/blog">
+						<Blog />
 					</Route>
 				</Switch>
 			</Router>

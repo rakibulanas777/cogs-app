@@ -1,0 +1,17 @@
+.product-feature {
+	background-color: #ecf4f1;
+}
+.product-feature-title {
+	font-size: 23px;
+	font-weight: 700;
+}
+.product-feature-deatils {
+	font-size: 18px;
+	font-weight: 700;
+	color: #36b37e;
+}
+.feature-box {
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	border-top: 2px solid #36b37e;
+}

@@ -1,0 +1,16 @@
+.blog-page-title {
+	font-size: 32px;
+	font-weight: 700;
+}
+.blog-page {
+	background-color: #ebebeb;
+}
+.input-btn-width {
+	background-color: white;
+	border-radius: 25px;
+}
+.input-subscribe {
+	outline: none;
+	padding: 8px 18px;
+	border: none;
+}
