@@ -7,6 +7,8 @@ import Header from "./Component/Home/Header";
 import Products from "./Component/Products/Products";
 import Blog from "./Component/Blog/Blog";
 
+import PricingPage from "./Component/Pricing/Pricing";
+
 function App() {
 	return (
 		<div className="App">
@@ -22,7 +24,7 @@ function App() {
 						<Products />
 					</Route>
 					<Route exact path="/pricing">
-						<Products />
+						<PricingPage />
 					</Route>
 					<Route exact path="/resources">
 						<Products />

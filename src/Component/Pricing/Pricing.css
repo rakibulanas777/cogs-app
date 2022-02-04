@@ -1,0 +1,14 @@
+.pricing-header-title {
+	font-size: 35px;
+	font-weight: 700;
+}
+.pricing-header-title span {
+	color: #36b37e;
+}
+.form-check .form-check-input {
+	float: none;
+	font-size: 18px;
+}
+.form-check .form-check-input:focus {
+	box-shadow: none;
+}
