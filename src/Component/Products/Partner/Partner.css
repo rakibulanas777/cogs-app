@@ -1,0 +1,33 @@
+.partner {
+	background-color: white;
+}
+.partner-title {
+	font-size: 35px;
+	font-weight: 700;
+}
+.number-roadmap {
+	position: relative;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: white;
+}
+.number {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.gallery-picture {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	background-color: #f3faf7;
+}
+.gallery {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

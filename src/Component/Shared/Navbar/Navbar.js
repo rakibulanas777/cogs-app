@@ -43,37 +43,25 @@ const Navbar = () => {
 					<span className="toggler-icon middle-bar"></span>
 					<span className="toggler-icon bottom-bar"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav  ms-auto text-lg-center mb-lg-0">
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link active" href="#about">
-								About
-							</a>
+							<a className="nav-link a-link">Product</a>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link" href="#mint">
-								Mint
-							</a>
+							<a className="nav-link  a-link">Pricing</a>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link" href="#info">
-								Info
-							</a>
+							<a className="nav-link  a-link">Resources</a>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link" href="#roadmap">
-								Roadmap
-							</a>
+							<a className="nav-link  a-link">Our Story</a>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link" href="#team">
-								Team
-							</a>
+							<a className="nav-link  a-link">We ‘re Hiring</a>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link" href="#faq">
-								FAQ
-							</a>
+							<a className="nav-link  a-link">Faq</a>
 						</li>
 
 						<div className="d-flex align-items-center">

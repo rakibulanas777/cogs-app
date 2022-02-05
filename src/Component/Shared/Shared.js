@@ -44,7 +44,7 @@ const Shared = () => {
 							</NavLink>
 						</li>
 						<li class="nav-item mx-2 mb-lg-0 mb-2">
-							<NavLink className="nav-link  a-link" to="/resources">
+							<NavLink className="nav-link  a-link" to="/blog">
 								Resources
 							</NavLink>
 						</li>

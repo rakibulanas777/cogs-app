@@ -52,3 +52,51 @@
 	font-size: 600;
 	color: white;
 }
+.new-data {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	align-content: center;
+	align-items: center;
+}
+.line {
+	height: 2px;
+	background-color: #ffffff;
+}
+.new-data-text {
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+}
+.icon-part-home {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.icon-box-home {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #2caf82;
+	position: relative;
+	cursor: pointer;
+}
+.fa-envelope,
+.fa-facebook-f,
+.fa-instagram,
+.fa-linkedin-in {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.home-center {
+	position: absolute;
+	top: 61%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.responsive-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+}

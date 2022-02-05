@@ -29,7 +29,10 @@ function App() {
 					<Route exact path="/resources">
 						<Products />
 					</Route>
-					<Route exact path="/blog">
+					<Route path="/blog">
+						<Blog />
+					</Route>
+					<Route path="/about">
 						<Blog />
 					</Route>
 				</Switch>

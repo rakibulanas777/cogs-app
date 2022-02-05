@@ -7,6 +7,7 @@ import tick from "../Images/Vector (3).png";
 import "./Products.css";
 import Feature from "./Feature/Feature";
 import Standout from "./Standout/Standout";
+import Partner from "./Partner/Partner";
 const Products = () => {
 	return (
 		<div className="products">
@@ -47,8 +48,10 @@ const Products = () => {
 					</div>
 				</div>
 			</div>
-			<Standout />
+
 			<Feature />
+			<Standout />
+			<Partner />
 			<Footer />
 		</div>
 	);
