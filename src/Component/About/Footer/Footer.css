@@ -78,7 +78,7 @@ ul {
 
 /*responsive*/
 @media (max-width: 1057px) {
-	.footer-grid {
+	.footer-grid1 {
 		grid-template-columns: 1fr 1fr;
 	}
 }

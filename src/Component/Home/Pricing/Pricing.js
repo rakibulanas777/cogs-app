@@ -3,11 +3,11 @@ import tick from "../../Images/Vector (3).png";
 import "./Pricing.css";
 const Pricing = () => {
 	const [color, setColor] = useState(true);
-	const [color1, setColor1] = useState(true);
+	const [color1, setColor1] = useState(false);
 	const [color2, setColor2] = useState(true);
 	return (
 		<div className="pricing p-4 mt-5 mb-5">
-			<div className="container">
+			<div className="container mt-5 mb-5">
 				<div className="pricing-title text-center mt-5 mb-3">
 					68% of small businesses don’t have a structured or documented <br />
 					conversion rate optimization (CRO) strategy.
@@ -16,7 +16,7 @@ const Pricing = () => {
 					We plan to change that with our product.
 				</div>
 				{/* pricing grid */}
-				<div className="pricing-grid mb-5">
+				<div className="pricing-grid mt-5 mb-5">
 					{/* price 1 */}
 					{color ? (
 						<div className="pricing-grid-item  p-3">
@@ -75,7 +75,7 @@ const Pricing = () => {
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 color ">$799</span>/month
+										<span className="me-3 color ">$999</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -129,7 +129,7 @@ const Pricing = () => {
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 ">$999</span>/month
+										<span className="me-3 ">$1299</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -193,7 +193,7 @@ const Pricing = () => {
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 color ">$799</span>/month
+										<span className="me-3 color ">$1299</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -259,7 +259,7 @@ const Pricing = () => {
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 ">$999</span>/month
+										<span className="me-3 ">$1699</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -329,7 +329,7 @@ const Pricing = () => {
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 color ">$799</span>/month
+										<span className="me-3 color ">$1699</span>/month
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>

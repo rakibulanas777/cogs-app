@@ -1,6 +1,6 @@
 .pricing-title {
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 26px;
+	font-weight: 700;
 }
 .pricing {
 	background-color: white;
@@ -56,4 +56,14 @@
 	font-weight: 500;
 	border: 1px solid none;
 	border-radius: 25px;
+}
+@media (max-width: 1000px) {
+	.pricing-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 574px) {
+	.pricing-grid {
+		grid-template-columns: 1fr;
+	}
 }

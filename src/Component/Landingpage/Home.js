@@ -108,7 +108,7 @@ const Home = () => {
 					</div>
 					{/* right box  */}
 					<div className="col-11 col-lg-7 text-lg-start text-center order-first order-lg-last mx-auto">
-						<div className="right-home-title mb-3">
+						<div className="right-home-title mb-3 mt-5">
 							Empowering Businesses with Maximized, 360-degree MarketPlace
 							Optimization
 						</div>
@@ -116,7 +116,7 @@ const Home = () => {
 							Among about seven million sellers, only 1.9 million sellers are
 							actively selling on the marketplace.
 						</div>
-						<div className="responsive-grid">
+						<div className="responsive-grid mb-5">
 							<div className="d-flex tool-bottom mt-3">
 								<div className="img-tick">
 									<img src={tick} width="20px" alt="" />

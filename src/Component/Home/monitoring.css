@@ -26,6 +26,9 @@
 	.monitoring-grid {
 		grid-template-columns: 1fr 1fr;
 	}
+	.inventory {
+		border-right: 0px;
+	}
 }
 @media (max-width: 600px) {
 	.monitoring-grid {

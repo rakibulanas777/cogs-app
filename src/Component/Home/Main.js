@@ -1,6 +1,9 @@
 import React from "react";
 import bottom from "../Assets/Images/Rectangle 13.png";
 import agility from "../Assets/Images/iteration 1.png";
+import user from "../Images/user 1.svg";
+import coin from "../Images/coins 1.svg";
+import rocket from "../Images/rocket (1) 1.svg";
 import "./main.css";
 const Main = () => {
 	return (
@@ -21,21 +24,21 @@ const Main = () => {
 					</div>
 					<div className="main-grid-box p-5">
 						<div className="text-center mb-2">
-							<img src={agility} alt="" className="img-fluid" />
+							<img src={user} alt="" className="img-fluid" />
 						</div>
-						<div className="main-text-grid text-center">Business Agility</div>
+						<div className="main-text-grid text-center">Customer Success</div>
 					</div>
 					<div className="main-grid-box p-5">
 						<div className="text-center mb-2">
-							<img src={agility} alt="" className="img-fluid" />
+							<img src={coin} alt="" className="img-fluid" />
 						</div>
-						<div className="main-text-grid text-center">Business Agility</div>
+						<div className="main-text-grid text-center">Maximize Sales</div>
 					</div>
 					<div className="main-grid-box p-5">
 						<div className="text-center mb-2">
-							<img src={agility} alt="" className="img-fluid" />
+							<img src={rocket} alt="" className="img-fluid" />
 						</div>
-						<div className="main-text-grid text-center">Business Agility</div>
+						<div className="main-text-grid text-center">Boost ROI</div>
 					</div>
 				</div>
 			</div>

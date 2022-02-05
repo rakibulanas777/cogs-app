@@ -19,7 +19,7 @@ const Shared = () => {
 					<img src={logo} alt="" className="logo img-fluid" />
 				</NavLink>
 				<button
-					class="navbar-toggler collapsed"
+					className="navbar-toggler collapsed"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
@@ -31,35 +31,35 @@ const Shared = () => {
 					<span className="toggler-icon middle-bar"></span>
 					<span className="toggler-icon bottom-bar"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item  mx-2 mb-lg-0 mb-2">
+				<div className="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul className="navbar-nav ms-auto">
+						<li className="nav-item  mx-2 mb-lg-0 mb-2">
 							<NavLink className="nav-link a-link" to="/product">
 								Product
 							</NavLink>
 						</li>
-						<li class="nav-item mx-2 mb-lg-0 mb-2">
+						<li className="nav-item mx-2 mb-lg-0 mb-2">
 							<NavLink className="nav-link  a-link" to="/pricing">
 								Pricing
 							</NavLink>
 						</li>
-						<li class="nav-item mx-2 mb-lg-0 mb-2">
+						<li className="nav-item mx-2 mb-lg-0 mb-2">
 							<NavLink className="nav-link  a-link" to="/blog">
 								Resources
 							</NavLink>
 						</li>
-						<li class="nav-item mx-2 mb-lg-0 mb-2">
-							<a class="nav-link  a-link" href="#Testimonials">
+						<li className="nav-item mx-2 mb-lg-0 mb-2">
+							<NavLink className="nav-link  a-link" to="/about">
 								Our Story
-							</a>
+							</NavLink>
 						</li>
-						<li class="nav-item mx-2 mb-lg-0 mb-2">
-							<a class="nav-link  a-link" href="#Testimonials">
+						<li className="nav-item mx-2 mb-lg-0 mb-2">
+							<a className="nav-link  a-link" href="#Testimonials">
 								We ‘re Hiring
 							</a>
 						</li>
-						<li class="nav-item mx-2 mb-lg-0 mb-2">
-							<a class="nav-link  a-link" href="#Testimonials">
+						<li className="nav-item mx-2 mb-lg-0 mb-2">
+							<a className="nav-link  a-link" href="#Testimonials">
 								Faq
 							</a>
 						</li>

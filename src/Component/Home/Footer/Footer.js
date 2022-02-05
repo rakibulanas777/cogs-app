@@ -6,18 +6,20 @@ const Footer = () => {
 		<footer class="footer">
 			<div className="container retalive">
 				<div className="col-10 col-lg-8 position-footer p-4 mx-auto">
-					<div className="position-footer-title text-center mt-5 mb-4">
+					<div className="position-footer-title1 text-center mt-5 mb-4">
 						Ready to Boost Your Sales and Outrun your Competitions?
 					</div>
 					<div className="button-part mb-5 text-center">
-						<button className="right-btn mx-3">Sign up Today</button>
+						<button className="right-btn mx-3 mb-lg-0 mb-3">
+							Sign up Today
+						</button>
 						<button className="right-btn mx-3">Request a Demo</button>
 					</div>
 				</div>
 			</div>
 			<div class="container ">
-				<div class="row footer-grid">
-					<div class="footer-col-30">
+				<div class="row footer-grid2">
+					<div class="footer-col">
 						<img src={logo} alt="" className="img-fluid mb-3" />
 						<div className="logo-bottom-text">
 							Envisioning Growth through Broader Insights

@@ -1,6 +1,8 @@
 import React from "react";
 import time from "../Assets/Svgs/Save time.svg";
 import analize from "../Assets/Svgs/Online Availability.svg";
+import energy from "../Images/energy (1) 1.svg";
+import decision from "../Images/decision (1) 1.svg";
 import "./Visual.css";
 const Visual = () => {
 	return (
@@ -8,7 +10,7 @@ const Visual = () => {
 			<div className="visual-title text-center mt-5 mb-5">
 				How Visual COGS Works
 			</div>
-			<div className="visual-grid">
+			<div className="visual-grid mb-5">
 				<div className="visual-grid-box p-3">
 					<div className="img-visual text-center mx-auto">
 						<img
@@ -27,7 +29,7 @@ const Visual = () => {
 				<div className="visual-grid-box p-3">
 					<div className="img-visual text-center mx-auto">
 						<img
-							src={time}
+							src={energy}
 							className="img-fluid text-center visual-img"
 							alt=""
 						/>
@@ -42,7 +44,7 @@ const Visual = () => {
 				<div className="visual-grid-box p-3">
 					<div className="img-visual text-center mx-auto">
 						<img
-							src={time}
+							src={decision}
 							className="img-fluid text-center visual-img"
 							alt=""
 						/>
