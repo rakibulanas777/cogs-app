@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import tick from "../../Images/Vector (3).png";
 import "./Pricing.css";
 const Pricing = () => {
-	const [color, setColor] = useState(false);
-	const [color1, setColor1] = useState(false);
-	const [color2, setColor2] = useState(false);
+	const [color, setColor] = useState(true);
+	const [color1, setColor1] = useState(true);
+	const [color2, setColor2] = useState(true);
 	return (
 		<div className="pricing p-4 mt-5 mb-5">
 			<div className="container">
