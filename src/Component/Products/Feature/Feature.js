@@ -3,7 +3,7 @@ import "./Feature.css";
 import cloud from "../../Images/cloud 1.svg";
 import tick from "../../Images/Icon.png";
 import box from "../../Images/package 1.svg";
-import price from "../../Images/package 1.svg";
+import price from "../../Images/price-list 1.svg";
 import question from "../../Images/question 1.svg";
 import team from "../../Images/team 1.svg";
 const Feature = () => {

@@ -1,12 +1,16 @@
 import React from "react";
 import logo from "../Images/Group 4.png";
-// import "./Footer.css";
+import facebook from "../Images/Vector (7).svg";
+import m from "../Images/Vector (8).svg";
+import i from "../Images/Vector (9).svg";
+import l from "../Images/Vector (10).svg";
+import "./Footer.css";
 const Footer = () => {
 	return (
 		<footer class="footer-price mt-5">
 			<div class="container ">
-				<div class="row footer-grid">
-					<div class="footer-col-30">
+				<div class="row footer-grid2 px-4">
+					<div class="footer-col">
 						<img src={logo} alt="" className="img-fluid mb-3" />
 						<div className="logo-bottom-text">
 							Envisioning Growth through Broader Insights
@@ -68,9 +72,15 @@ const Footer = () => {
 					<div class="footer-col">
 						<ul>
 							<h5>Contact</h5>
-							<div className="last-deatils">
+							<div className="last-deatils mb-3">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
 								industry.
+							</div>
+							<div className="icon-footer-grid">
+								<img src={facebook} alt="" />
+								<img src={m} alt="" />
+								<img src={i} alt="" />
+								<img src={l} alt="" />
 							</div>
 						</ul>
 					</div>

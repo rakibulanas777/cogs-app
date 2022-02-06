@@ -13,13 +13,13 @@ const Partner = () => {
 			</div>
 			<div className="container">
 				<div className="partner-roadmap mb-5">
-					<div className="partner-grid-1 mb-5" data-aos="fade-up">
+					<div className="partner-grid-1 mb-5 mx-auto" data-aos="fade-up">
 						<div className="text-part">
 							<div className="products-title mb-3">
 								All of your product history <br /> one click away.
 							</div>
 
-							<div className="d-flex tool-bottom mt-3">
+							<div className="d-flex align-items-center tool-bottom mt-3">
 								<div className="img-tick">
 									<img src={tick} width="20px" alt="" />
 								</div>
@@ -27,13 +27,13 @@ const Partner = () => {
 									Distribution of Latest Page Ratings
 								</div>
 							</div>
-							<div className="d-flex tool-bottom mt-3">
+							<div className="d-flex align-items-center tool-bottom mt-3">
 								<div className="img-tick">
 									<img src={tick} width="20px" alt="" />
 								</div>
 								<div className="product-tick-text mx-3">Bestseller rank</div>
 							</div>
-							<div className="d-flex tool-bottom mt-3">
+							<div className="d-flex align-items-center tool-bottom mt-3">
 								<div className="img-tick">
 									<img src={tick} width="20px" alt="" />
 								</div>
@@ -43,7 +43,7 @@ const Partner = () => {
 								</div>
 							</div>
 						</div>
-						<div className="roadmap-number shadow">
+						<div className="roadmap-number d-none d-lg-block shadow">
 							<img src={one} alt="" className="img-fluid img-position" />
 						</div>
 						<div className="partner-grid-img me-auto">
@@ -57,8 +57,8 @@ const Partner = () => {
 							</div>
 						</div>
 					</div>
-					<div className="partner-grid-2 mb-5" data-aos="fade-up">
-						<div className="partner-grid-img ms-auto">
+					<div className="partner-grid-2 mb-5 mx-auto" data-aos="fade-up">
+						<div className="partner-grid-img ms-lg-auto">
 							<div className="gallery-picture  p-3">
 								<img
 									src={click}
@@ -68,13 +68,13 @@ const Partner = () => {
 								/>
 							</div>
 						</div>
-						<div className="roadmap-number shadow mx-auto">
+						<div className="roadmap-number shadow mx-auto d-none d-lg-block">
 							<img src={two} alt="" className="img-fluid img-position" />
 						</div>
-						<div className="text-part ms-auto">
+						<div className="text-part ms-lg-auto">
 							<div className="products-title mb-3">Competitor analysis</div>
 
-							<div className="d-flex tool-bottom mt-3">
+							<div className="d-flex tool-bottom align-items-center mt-3">
 								<div className="img-tick">
 									<img src={tick} width="20px" alt="" />
 								</div>
@@ -83,7 +83,7 @@ const Partner = () => {
 									stock.
 								</div>
 							</div>
-							<div className="d-flex tool-bottom mt-3">
+							<div className="d-flex tool-bottom align-items-center mt-3">
 								<div className="img-tick">
 									<img src={tick} width="20px" alt="" />
 								</div>
@@ -140,7 +140,7 @@ const Partner = () => {
 								</div>
 							</div>
 						</div>
-						<div className="roadmap-number shadow">
+						<div className="roadmap-number shadow  d-none d-lg-block">
 							<img src={three} className="img-fluid img-position" alt="" />
 						</div>
 						<div className="partner-grid-img me-auto">

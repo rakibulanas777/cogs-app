@@ -12,3 +12,15 @@
 .form-check .form-check-input:focus {
 	box-shadow: none;
 }
+.form-check-input:checked {
+	background-color: #36b37e;
+	border-color: #36b37e;
+}
+.package-title {
+	color: #36b37e;
+	font-weight: 700;
+	font-size: 35px;
+}
+.border-green {
+	border: 1px solid #36b37e;
+}

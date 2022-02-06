@@ -15,15 +15,18 @@ const Products = () => {
 			<Shared />
 			<div className="container">
 				<div className="row align-items-center">
-					<div className="col-11 col-lg-6 mx-auto mt-lg-0 mt-5">
-						<div className="products-title mb-3" data-aos="fade-up">
+					<div
+						className="col-11 col-lg-6 mx-auto mt-lg-0 mt-5"
+						data-aos="fade-up"
+					>
+						<div className="products-title mb-3">
 							One <span>platform</span> for all the information your{" "}
 							<span>business needs.</span>
 						</div>
-						<div className="products-deatils mb-3" data-aos="fade-up">
+						<div className="products-deatils mb-3">
 							Sales. Inventory. Buy Box. Reviews. Competitors. Traffic.
 						</div>
-						<div className="d-flex tool-bottom mt-3" data-aos="fade-up">
+						<div className="d-flex tool-bottom mt-3">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
@@ -44,7 +47,7 @@ const Products = () => {
 							<div className="tool-tick-text mx-3">Set annual goals.</div>
 						</div>
 					</div>
-					<div className="col-11 col-lg-6 mx-auto">
+					<div className="col-11 col-lg-6 mx-auto" data-aos="fade-down">
 						<img src={image} alt="" className="img-fluid w-100" />
 					</div>
 				</div>

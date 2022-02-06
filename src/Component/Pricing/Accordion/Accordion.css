@@ -1,3 +1,27 @@
 .answer-qestion {
-	border-radius: 12px;
+	border-radius: 10px;
+	background-color: white;
+}
+.question {
+	font-size: 20px;
+	font-weight: 700;
+	color: #183b56;
+}
+.accordion-title {
+	font-size: 32px;
+	font-weight: 700;
+}
+.accordion {
+	background-color: #f3faf7;
+}
+.fa-plus,
+.fa-minus {
+	color: #36b37e;
+}
+.question-flex {
+	cursor: pointer;
+}
+.ans {
+	font-size: 16px;
+	font-weight: 500;
 }

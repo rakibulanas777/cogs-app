@@ -1,5 +1,6 @@
 import React from "react";
 import "./Subscribe.css";
+import mail from "../Images/envelope.svg";
 const Subscribe = () => {
 	return (
 		<div className="subscribe-blog p-4">
@@ -12,12 +13,13 @@ const Subscribe = () => {
 				</div>
 				<div className="col-lg-4 col-11 mx-auto">
 					<div className="input-btn-width shadow p-2 d-flex mb-5 w-100">
+						<img src={mail} alt="" className="ms-2 img-fluid" />
 						<input
 							type="text"
-							className="w-100 input-subscribe"
+							className="input-subscribe"
 							placeholder="Enter Your Email"
 						/>
-						<button className="button ">Subscribe</button>
+						<button className=" subscribe ">Subscribe</button>
 					</div>
 				</div>
 			</div>

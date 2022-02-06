@@ -4,6 +4,8 @@ import CustomArrows from "../Home/Slider/Slider";
 import Navbar from "../Shared/Navbar/Navbar";
 import Shared from "../Shared/Shared";
 import Accordion from "./Accordion/Accordion";
+import Cpackage from "./Accordion/Cpackage";
+import Apackage from "./Apackage";
 import Footer from "./Footer";
 import "./Pricing.css";
 import Subscribe from "./Subscribe";
@@ -30,8 +32,8 @@ const PricingPage = () => {
 					</div>
 				</div>
 			</div>
-			<Pricing />
-			<Pricing />
+			<Apackage />
+			<Cpackage />
 			<Accordion />
 			<CustomArrows />
 			<Subscribe />

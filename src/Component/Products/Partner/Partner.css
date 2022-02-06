@@ -57,3 +57,22 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+@media (max-width: 990px) {
+	.partner-grid-1 {
+		grid-template-columns: 1fr;
+	}
+	.partner-grid-2 {
+		grid-template-columns: 1fr;
+	}
+	.text-part {
+		order: 2;
+	}
+	.partner-grid-img {
+		order: 1;
+	}
+}
+@media (max-width: 574px) {
+	.visual-grid {
+		grid-template-columns: 1fr;
+	}
+}

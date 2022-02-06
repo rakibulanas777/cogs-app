@@ -11,3 +11,23 @@
 	color: white;
 	font-weight: 600;
 }
+.input-subscribe {
+	width: 100%;
+}
+.fa-envelope {
+	color: rgb(83, 81, 81);
+}
+.subscribe {
+	border-radius: 25px;
+	background: #36b37e;
+	border: none;
+	outline: none;
+	color: white;
+	font-weight: 500;
+	padding: 0.5rem 1.5rem;
+}
+@media (max-width: 400px) {
+	.subscribe {
+		padding: 0.5rem 1rem;
+	}
+}

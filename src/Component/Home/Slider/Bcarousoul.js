@@ -9,7 +9,7 @@ import computer1 from "../../Images/Rectangle 6221 (2).png";
 import computer2 from "../../Images/Rectangle 6221 (3).png";
 import "./carosoul.css";
 
-export default class PreviousNextMethods extends Component {
+export default class Latestpost extends Component {
 	constructor(props) {
 		super(props);
 		this.next = this.next.bind(this);
@@ -61,7 +61,7 @@ export default class PreviousNextMethods extends Component {
 				<div className="container mt-5 mb-5">
 					<div className="title-blog d-flex justify-content-between mb-3">
 						<h3 data-aos="fade-up" className="text-lg-start text-center">
-							Blog and Articles
+							Latest Post
 						</h3>
 						<div className="d-none d-lg-block">
 							<button

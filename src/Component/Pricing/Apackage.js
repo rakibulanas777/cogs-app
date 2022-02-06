@@ -1,20 +1,17 @@
 import React, { useState } from "react";
-import tick from "../../Images/Vector (3).png";
-import "./Pricing.css";
-const Pricing = () => {
+import tick from "../Images/Vector (3).png";
+
+const Apackage = () => {
 	const [color, setColor] = useState(true);
 	const [color1, setColor1] = useState(false);
 	const [color2, setColor2] = useState(true);
 	return (
 		<div className="pricing p-4 mt-5 mb-5">
 			<div className="container mt-5 mb-5">
-				<div className="pricing-title text-center mt-5 mb-3" data-aos="fade-up">
-					68% of small businesses don’t have a structured or documented <br />
-					conversion rate optimization (CRO) strategy.
+				<div className="package-title text-center mt-5 mb-5" data-aos="fade-up">
+					Amazon Packages
 				</div>
-				<div className="pricing-deatails text-center mb-4" data-aos="fade-up">
-					We plan to change that with our product.
-				</div>
+
 				{/* pricing grid */}
 				<div className="pricing-grid mt-5 mb-5" data-aos="zoom-in">
 					{/* price 1 */}
@@ -401,4 +398,4 @@ const Pricing = () => {
 	);
 };
 
-export default Pricing;
+export default Apackage;
