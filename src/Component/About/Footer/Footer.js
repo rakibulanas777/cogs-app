@@ -1,10 +1,14 @@
 import React from "react";
 import logo from "../../Images/Group 4.png";
-// import "./Footer.css";
+import facebook from "../../Images/Vector (7).svg";
+import m from "../../Images/Vector (8).svg";
+import i from "../../Images/Vector (9).svg";
+import l from "../../Images/Vector (10).svg";
+import "./Footer.css";
 const Footer = () => {
 	return (
-		<footer class="footer">
-			<div className="container retalive">
+		<footer class="footer-about">
+			<div className="container relative">
 				<div className="col-10 col-lg-8 position-footer p-4 mx-auto">
 					<div className="position-footer-office-title text-center mt-5 mb-2">
 						Our Office
@@ -17,7 +21,7 @@ const Footer = () => {
 					<div className="embed-responsive w-100 embed-responsive-16by9 mb-3">
 						<iframe
 							className="embed-responsive-item w-100"
-							src="https://www.google.com/maps/@24.2518452,89.9000487,15z"
+							src="https://www.google.com/maps"
 							allowfullscreen
 						></iframe>
 					</div>
@@ -30,7 +34,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div class="container ">
-				<div class="row footer-grid1">
+				<div class="row footer-grid1 px-4">
 					<div class="footer-col-30">
 						<img src={logo} alt="" className="img-fluid mb-3" />
 						<div className="logo-bottom-text">
@@ -93,9 +97,15 @@ const Footer = () => {
 					<div class="footer-col">
 						<ul>
 							<h5>Contact</h5>
-							<div className="last-deatils">
+							<div className="last-deatils mb-3">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
 								industry.
+							</div>
+							<div className="icon-footer-grid">
+								<img src={facebook} alt="" />
+								<img src={m} alt="" />
+								<img src={i} alt="" />
+								<img src={l} alt="" />
 							</div>
 						</ul>
 					</div>

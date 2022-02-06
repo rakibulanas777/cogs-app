@@ -12,7 +12,7 @@ const About = () => {
 		<div className="about-page">
 			<Navbar />
 			<Shared />
-			<div className="about-us-header ">
+			<div className="about-us-header " data-aos="fade-up">
 				<div className="about-us-title text-center mb-3">Who we are?</div>
 				<div className="about-us-deatils mb-5 text-center">
 					Our team of e-commerce specialists is entirely dedicated to customer
@@ -24,8 +24,16 @@ const About = () => {
 				<div className="container mt-5 mb-5">
 					<div className="row align-items-center">
 						{/* left part  */}
-						<div className="col-lg-4 col-11 mx-auto">
-							<div className="ourstory mb-3 d-flex align-items-center">
+						<div className="ourstory mb-3 d-lg-none align-items-center">
+							<div className="ourstory-title text-lg-start text-center ">
+								Our story
+							</div>
+							<div className="text-center">
+								<img src={line} className="text-center" alt="" />
+							</div>
+						</div>
+						<div className="col-lg-4 col-11 mx-auto " data-aos="fade-up">
+							<div className="ourstory d-none d-lg-flex mb-3  align-items-center">
 								<img src={line} alt="" />
 								<div className="ourstory-title">Our Story</div>
 							</div>
@@ -38,30 +46,36 @@ const About = () => {
 								fulfill the ambition of growing businesses of sellers and
 								vendors to augment sales.
 							</div>
-							<button className="learn-more">Learn More</button>
+							<button className="learn-more mb-5">Learn More</button>
 						</div>
 						{/* right-part  */}
-						<div className="col-lg-6 col-11 mx-auto">
+						<div
+							className="col-lg-6 order-first order-lg-last  col-11 mt-lg-0 mt-3 mx-auto"
+							data-aos="fade-down"
+						>
 							<img src={right} alt="" className="img-fluid mb-5" />
 						</div>
+					</div>
+					<div className="row align-items-center">
 						{/* left  */}
-						<div className="col-lg-6 col-11 mx-auto">
+						<div className="ourstory mb-3 d-lg-none align-items-center">
+							<div className="ourstory-title text-lg-start text-center ">
+								Our Mission
+							</div>
+							<div className="text-center">
+								<img src={line} className="text-center" alt="" />
+							</div>
+						</div>
+						<div className="col-lg-6 col-11 mx-auto" data-aos="fade-up">
 							<img src={left} alt="" className="img-fluid mt-5 mb-5" />
 						</div>
 						{/* right part  */}
-						<div className="col-lg-4 col-11 mx-auto">
-							<div className="ourstory mb-3 d-lg-flex align-items-center">
-								<img src={line} className="d-none d-lg-inline-block" alt="" />
+						<div className="col-lg-4 col-11 mx-auto" data-aos="fade-down">
+							<div className="ourstory d-none mb-3 d-lg-flex align-items-center">
+								<img src={line} alt="" />
 								<div className="ourstory-title text-lg-start text-center ">
 									Our Mission
 								</div>
-							</div>
-							<div className="img-center text-center mb-2">
-								<img
-									src={line}
-									className="d-lg-none d-inline-block text-center"
-									alt=""
-								/>
 							</div>
 							<div className="ourstory-deatils mb-3">
 								Help vendors and sellers maximize their potential and boost

@@ -5,7 +5,10 @@ const Principle = () => {
 		<div className="principle p-4">
 			<div className="container mt-5 mb-5">
 				<div className="row align-items-center">
-					<div className="col-lg-6 col-11 border-radius p-4 mx-auto">
+					<div
+						className="col-lg-6 col-11 border-radius p-4 mx-auto"
+						data-aos="fade-up"
+					>
 						<div className="principle-title mt-5  mb-3 text-center">
 							Our Principles
 						</div>
@@ -17,7 +20,7 @@ const Principle = () => {
 						</div>
 					</div>
 					<div className="col-lg-6 col-11 mx-auto">
-						<div className="divider mb-5">
+						<div className="divider mb-5" data-aos="zoom-in">
 							<div className="innovation mb-2">Innovation</div>
 							<div className="right-deatils mb-3">
 								We believe that growth is infinite, and we always work towards
@@ -25,7 +28,7 @@ const Principle = () => {
 								creatively solve arising problems.
 							</div>
 						</div>
-						<div className="divider mb-5">
+						<div className="divider mb-5" data-aos="zoom-in">
 							<div className="innovation mb-2">Innovation</div>
 							<div className="right-deatils mb-3">
 								We believe that growth is infinite, and we always work towards
@@ -33,7 +36,7 @@ const Principle = () => {
 								creatively solve arising problems.
 							</div>
 						</div>
-						<div className="divider mb-5">
+						<div className="divider mb-5" data-aos="zoom-in">
 							<div className="innovation mb-2">Collaboration</div>
 							<div className="right-deatils mb-3">
 								Our teammates row together, creating an effective and healthy
@@ -41,7 +44,7 @@ const Principle = () => {
 								work with exceptional people from around the globe.
 							</div>
 						</div>
-						<div className="divider mb-5">
+						<div className="divider mb-5" data-aos="zoom-in">
 							<div className="innovation mb-2">Customer-centric team</div>
 							<div className="right-deatils mb-3">
 								We believe that the customer is the ‘boss’ and every idea in
@@ -50,7 +53,7 @@ const Principle = () => {
 								form long-term relationships.
 							</div>
 						</div>
-						<div className="divider mb-5">
+						<div className="divider mb-5" data-aos="zoom-in">
 							<div className="innovation mb-2">
 								Setting Goals and Yielding Results
 							</div>
