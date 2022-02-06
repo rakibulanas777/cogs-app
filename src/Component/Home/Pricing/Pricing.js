@@ -16,10 +16,10 @@ const Pricing = () => {
 					We plan to change that with our product.
 				</div>
 				{/* pricing grid */}
-				<div className="pricing-grid mt-5 mb-5">
+				<div className="pricing-grid mt-5 mb-5" data-aos="zoom-in">
 					{/* price 1 */}
 					{color ? (
-						<div className="pricing-grid-item  p-3" data-aos="zoom-in">
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -71,7 +71,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item shadow p-3" data-aos="zoom-in">
+						<div className="pricing-grid-item shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -125,7 +125,7 @@ const Pricing = () => {
 					)}
 					{/* price 2 */}
 					{color1 ? (
-						<div className="pricing-grid-item  p-3" data-aos="zoom-in">
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -189,7 +189,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item shadow p-3" data-aos="zoom-in">
+						<div className="pricing-grid-item shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -255,7 +255,7 @@ const Pricing = () => {
 					)}
 					{/* price 3 */}
 					{color2 ? (
-						<div className="pricing-grid-item  p-3" data-aos="zoom-in">
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -325,7 +325,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item shadow p-3" data-aos="zoom-in">
+						<div className="pricing-grid-item shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">

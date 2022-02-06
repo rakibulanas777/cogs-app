@@ -22,7 +22,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div class="container ">
-				<div class="row footer-grid2">
+				<div class="row footer-grid2 px-4">
 					<div class="footer-col">
 						<img src={logo} alt="" className="img-fluid mb-3" />
 						<div className="logo-bottom-text">

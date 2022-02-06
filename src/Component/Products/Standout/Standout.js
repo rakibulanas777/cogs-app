@@ -5,11 +5,11 @@ const Standout = () => {
 	return (
 		<div className="standout">
 			<div className="container mt-5 mb-5">
-				<div className="row">
-					<div className="col-lg-6 col-11 mx-auto">
+				<div className="row align-items-center">
+					<div className="col-lg-6 col-11 mx-auto" data-aos="fade-right">
 						<img src={bg} alt="" className="img-fluid" />
 					</div>
-					<div className="col-11 col-lg-5 mx-auto">
+					<div className="col-11 col-lg-5 mx-auto" data-aos="fade-up">
 						<div className="products-title mb-3">What makes us stand out?</div>
 
 						<div className="d-flex tool-bottom mt-3">

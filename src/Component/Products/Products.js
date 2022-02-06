@@ -14,15 +14,16 @@ const Products = () => {
 			<Navbar />
 			<Shared />
 			<div className="container">
-				<div className="row">
-					<div className="col-11 col-lg-6 mx-auto">
-						<div className="products-title mb-3">
-							One platform for all the information your business needs.
+				<div className="row align-items-center">
+					<div className="col-11 col-lg-6 mx-auto mt-lg-0 mt-5">
+						<div className="products-title mb-3" data-aos="fade-up">
+							One <span>platform</span> for all the information your{" "}
+							<span>business needs.</span>
 						</div>
-						<div className="products-deatils mb-3">
+						<div className="products-deatils mb-3" data-aos="fade-up">
 							Sales. Inventory. Buy Box. Reviews. Competitors. Traffic.
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-flex tool-bottom mt-3" data-aos="fade-up">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
