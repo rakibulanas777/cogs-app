@@ -1,0 +1,23 @@
+.latest-blog {
+	background-color: #ebebeb;
+}
+.leadership {
+	background-color: white;
+}
+.grid-box {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.latest-blog-title {
+	font-size: 34px;
+	color: #36b37e;
+	font-weight: 700;
+}
+.latest-blog-deatils {
+	font-weight: 700;
+}
+@media (max-width: 990px) {
+	.grid-box {
+		display: none;
+	}
+}

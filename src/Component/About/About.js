@@ -7,6 +7,8 @@ import left from "../Images/Group 237478.png";
 import "./About.css";
 import Principle from "./Principle/Principle";
 import Footer from "./Footer/Footer";
+import Latest from "./Latest/Latest";
+import Leadership from "./Leadership/Leadership";
 const About = () => {
 	return (
 		<div className="about-page">
@@ -89,6 +91,8 @@ const About = () => {
 				</div>
 			</div>
 			<Principle />
+			<Leadership />
+			<Latest />
 			<Footer />
 		</div>
 	);
