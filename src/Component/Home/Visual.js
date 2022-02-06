@@ -7,11 +7,11 @@ import "./Visual.css";
 const Visual = () => {
 	return (
 		<div className="container mt-5 mb-5">
-			<div className="visual-title text-center mt-5 mb-5">
+			<div className="visual-title text-center mt-5 mb-5" data-aos="fade-up">
 				How Visual COGS Works
 			</div>
 			<div className="visual-grid mb-5">
-				<div className="visual-grid-box p-3">
+				<div className="visual-grid-box  p-3" data-aos="zoom-in">
 					<div className="img-visual text-center mx-auto">
 						<img
 							src={time}
@@ -26,7 +26,7 @@ const Visual = () => {
 						other e-commerce websites
 					</div>
 				</div>
-				<div className="visual-grid-box p-3">
+				<div className="visual-grid-box p-3" data-aos="zoom-in">
 					<div className="img-visual text-center mx-auto">
 						<img
 							src={energy}
@@ -41,7 +41,7 @@ const Visual = () => {
 						information and customizable data
 					</div>
 				</div>
-				<div className="visual-grid-box p-3">
+				<div className="visual-grid-box p-3" data-aos="zoom-in">
 					<div className="img-visual text-center mx-auto">
 						<img
 							src={decision}
@@ -60,7 +60,7 @@ const Visual = () => {
 				</div>
 			</div>
 			{/* button part  */}
-			<div className="button-part mt-5 mb-5 text-center">
+			<div className="button-part mt-5 mb-5 text-center" data-aos="fade-up">
 				<button className="left-btn mx-3">Get Started</button>
 			</div>
 		</div>

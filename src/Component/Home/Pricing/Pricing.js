@@ -8,18 +8,18 @@ const Pricing = () => {
 	return (
 		<div className="pricing p-4 mt-5 mb-5">
 			<div className="container mt-5 mb-5">
-				<div className="pricing-title text-center mt-5 mb-3">
+				<div className="pricing-title text-center mt-5 mb-3" data-aos="fade-up">
 					68% of small businesses don’t have a structured or documented <br />
 					conversion rate optimization (CRO) strategy.
 				</div>
-				<div className="pricing-deatails text-center mb-4">
+				<div className="pricing-deatails text-center mb-4" data-aos="fade-up">
 					We plan to change that with our product.
 				</div>
 				{/* pricing grid */}
 				<div className="pricing-grid mt-5 mb-5">
 					{/* price 1 */}
 					{color ? (
-						<div className="pricing-grid-item  p-3">
+						<div className="pricing-grid-item  p-3" data-aos="zoom-in">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -71,7 +71,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item shadow p-3">
+						<div className="pricing-grid-item shadow p-3" data-aos="zoom-in">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -125,7 +125,7 @@ const Pricing = () => {
 					)}
 					{/* price 2 */}
 					{color1 ? (
-						<div className="pricing-grid-item  p-3">
+						<div className="pricing-grid-item  p-3" data-aos="zoom-in">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -189,7 +189,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item shadow p-3">
+						<div className="pricing-grid-item shadow p-3" data-aos="zoom-in">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -255,7 +255,7 @@ const Pricing = () => {
 					)}
 					{/* price 3 */}
 					{color2 ? (
-						<div className="pricing-grid-item  p-3">
+						<div className="pricing-grid-item  p-3" data-aos="zoom-in">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -325,7 +325,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item shadow p-3">
+						<div className="pricing-grid-item shadow p-3" data-aos="zoom-in">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">

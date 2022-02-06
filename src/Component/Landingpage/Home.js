@@ -27,7 +27,7 @@ const Home = () => {
 			<div className="container home-center">
 				<div className="row mb-3">
 					{/* left part from box */}
-					<div className="col-11 col-lg-4 mx-auto">
+					<div className="col-11  col-lg-4 mx-auto" data-aos="fade-up">
 						<div className="from-box mb-2 p-4">
 							<div className="from-text mb-2">Request A Quote Now!</div>
 							<form>
@@ -107,12 +107,15 @@ const Home = () => {
 						</div>
 					</div>
 					{/* right box  */}
-					<div className="col-11 col-lg-7 text-lg-start text-center order-first order-lg-last mx-auto">
+					<div
+						className="col-11 col-lg-7 text-lg-start text-center order-first order-lg-last mx-auto"
+						data-aos="fade-down"
+					>
 						<div className="right-home-title mb-3 mt-5">
 							Empowering Businesses with Maximized, 360-degree MarketPlace
 							Optimization
 						</div>
-						<div className="landing-page-deatils">
+						<div className="landing-page-deatils ">
 							Among about seven million sellers, only 1.9 million sellers are
 							actively selling on the marketplace.
 						</div>

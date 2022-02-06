@@ -15,7 +15,7 @@ const Shared = () => {
 	return (
 		<nav className="navbar navbar-expand-lg box-shadow d-none d-lg-block">
 			<div className="container mb-5">
-				<NavLink className="navbar-brand" to="/">
+				<NavLink className="navbar-brand" to="/home">
 					<img src={logo} alt="" className="logo img-fluid" />
 				</NavLink>
 				<button

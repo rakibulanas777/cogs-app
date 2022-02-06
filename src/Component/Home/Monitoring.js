@@ -6,7 +6,7 @@ const Monitoring = () => {
 		<div className="monitoring p-4">
 			<div className="container">
 				<div className="monitoring-grid mt-5 mb-5">
-					<div className="inventory p-4 ">
+					<div className="inventory p-4 " data-aos="zoom-in">
 						<div className="d-flex flex-column">
 							<div className="tick mb-3">
 								<img src={tick} width="30px" alt="" />
@@ -21,7 +21,7 @@ const Monitoring = () => {
 						</div>
 					</div>
 					{/* 2nd one */}
-					<div className="inventory p-4 ">
+					<div className="inventory p-4 " data-aos="zoom-in">
 						<div className="d-flex flex-column">
 							<div className="tick mb-3">
 								<img src={tick} width="30px" alt="" />
@@ -36,7 +36,7 @@ const Monitoring = () => {
 						</div>
 					</div>
 					{/*     Competitor Survey*/}
-					<div className="survey p-4 ">
+					<div className="survey p-4 " data-aos="zoom-in">
 						<div className="d-flex flex-column">
 							<div className="tick mb-3">
 								<img src={tick} width="30px" alt="" />
@@ -49,7 +49,7 @@ const Monitoring = () => {
 						</div>
 					</div>
 					{/* Data Analytics*/}
-					<div className="inventory p-4 ">
+					<div className="inventory p-4 " data-aos="zoom-in">
 						<div className="d-flex flex-column">
 							<div className="tick mb-3">
 								<img src={tick} width="30px" alt="" />
@@ -62,7 +62,7 @@ const Monitoring = () => {
 						</div>
 					</div>
 					{/* BuyBox Analytics*/}
-					<div className="inventory p-4 ">
+					<div className="inventory p-4 " data-aos="zoom-in">
 						<div className="d-flex flex-column">
 							<div className="tick mb-3">
 								<img src={tick} width="30px" alt="" />
@@ -74,7 +74,7 @@ const Monitoring = () => {
 						</div>
 					</div>
 					{/*Review Management*/}
-					<div className="survey p-4 ">
+					<div className="survey p-4 " data-aos="zoom-in">
 						<div className="d-flex flex-column">
 							<div className="tick mb-3">
 								<img src={tick} width="30px" alt="" />
@@ -88,7 +88,9 @@ const Monitoring = () => {
 				</div>
 				{/* button  */}
 				<div className="button-part mb-5 mt-5 text-center">
-					<button className="right-btn mt-5">Get Started</button>
+					<button className="right-btn mt-5" data-aos="fade-up">
+						Get Started
+					</button>
 				</div>
 			</div>
 		</div>

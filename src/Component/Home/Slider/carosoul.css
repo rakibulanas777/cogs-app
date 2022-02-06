@@ -9,3 +9,25 @@
 .extra-text {
 	font-size: 12px;
 }
+.button-pev {
+	width: 45px;
+	height: 45px;
+
+	border: none;
+	background-color: white;
+	outline: none;
+	color: #696969;
+	border-radius: 50%;
+	position: relative;
+}
+.button-next {
+	width: 45px;
+	height: 45px;
+
+	border: none;
+	background-color: white;
+	outline: none;
+	color: #2caf82;
+	border-radius: 50%;
+	position: relative;
+}

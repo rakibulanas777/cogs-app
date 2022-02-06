@@ -7,7 +7,7 @@ const Tool = () => {
 		<div className="tool mt-5 mb-5">
 			<div className="container">
 				<div className="row mt-5 mb-5">
-					<div className="col-11 col-lg-5 mx-auto">
+					<div className="col-11 col-lg-5 mx-auto" data-aos="fade-up">
 						<div className="tool-title mt-5 mb-3">
 							The Best ETL Tool for your <br /> <span>Tech stack</span>
 						</div>
@@ -38,7 +38,10 @@ const Tool = () => {
 							<div className="tool-tick-text mx-3">Overall Efficiency</div>
 						</div>
 					</div>
-					<div className="col-11 order-first order-lg-last col-lg-7 mx-auto">
+					<div
+						className="col-11 order-first order-lg-last col-lg-7 mx-auto"
+						data-aos="fade-down"
+					>
 						<img src={right} alt="" className="img-fluid w-100" />
 					</div>
 				</div>

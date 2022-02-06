@@ -16,25 +16,25 @@ const Main = () => {
 					<img src={bottom} alt="" width="130px" className="img-fluid" />
 				</div>
 				<div className="main-grid mb-3">
-					<div className="main-grid-box p-5">
+					<div className="main-grid-box p-5" data-aos="zoom-in">
 						<div className="text-center mb-2">
 							<img src={agility} alt="" className="img-fluid" />
 						</div>
 						<div className="main-text-grid text-center">Business Agility</div>
 					</div>
-					<div className="main-grid-box p-5">
+					<div className="main-grid-box p-5" data-aos="zoom-in">
 						<div className="text-center mb-2">
 							<img src={user} alt="" className="img-fluid" />
 						</div>
 						<div className="main-text-grid text-center">Customer Success</div>
 					</div>
-					<div className="main-grid-box p-5">
+					<div className="main-grid-box p-5" data-aos="zoom-in">
 						<div className="text-center mb-2">
 							<img src={coin} alt="" className="img-fluid" />
 						</div>
 						<div className="main-text-grid text-center">Maximize Sales</div>
 					</div>
-					<div className="main-grid-box p-5">
+					<div className="main-grid-box p-5" data-aos="zoom-in">
 						<div className="text-center mb-2">
 							<img src={rocket} alt="" className="img-fluid" />
 						</div>

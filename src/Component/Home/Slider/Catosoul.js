@@ -4,6 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import bolg from "../../Images/Rectangle 6221.png";
 import user from "../../Images/Ellipse 1002.png";
+import computer from "../../Images/Rectangle 6221 (1).png";
+import computer1 from "../../Images/Rectangle 6221 (2).png";
+import computer2 from "../../Images/Rectangle 6221 (3).png";
 import "./carosoul.css";
 
 export default class PreviousNextMethods extends Component {
@@ -57,17 +60,24 @@ export default class PreviousNextMethods extends Component {
 			<div className="blog p-5">
 				<div className="container mt-5 mb-5">
 					<div className="title-blog d-flex justify-content-between mb-3">
-						<h3>Blog and Articles</h3>
+						<h3 data-aos="fade-up">Blog and Articles</h3>
 						<div className="d-none d-lg-block">
-							<button className="button" onClick={this.previous}>
-								Previous
+							<button
+								className="button-pev shadow me-3"
+								onClick={this.previous}
+							>
+								<i class="fas fa-angle-left"></i>
 							</button>
-							<button className="button" onClick={this.next}>
-								Next
+							<button className="button-next shadow" onClick={this.next}>
+								<i class="fas fa-angle-right"></i>
 							</button>
 						</div>
 					</div>
-					<Slider ref={(c) => (this.slider = c)} {...settings}>
+					<Slider
+						ref={(c) => (this.slider = c)}
+						{...settings}
+						data-aos="zoom-in"
+					>
 						{/* testimonial 1 */}
 						<div
 							className="grid-box-slider carousel-item active p-2"
@@ -76,6 +86,90 @@ export default class PreviousNextMethods extends Component {
 							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 								<div className="blog-img">
 									<img src={bolg} alt="" className="img-fluid" />
+								</div>
+							</div>
+							<div className="bottom-title mb-3">
+								7 Steps To An Effective Marketing Strategy
+							</div>
+							<div className="blog-owner align-items-center d-flex mb-3">
+								<div className="user me-3">
+									<img src={user} alt="" className="img-fluid" />
+								</div>
+								<div className="extra-text d-flex">
+									<span>Adrian Harris</span>
+									<span>|</span>
+									<span>Nov 5, 2018</span>
+								</div>
+							</div>
+							<div className="bottom-deatils mb-3">
+								There are many variations of passages of Lorem Ipsum available,
+								but the majority have ....
+							</div>
+						</div>
+						{/* testimonial 2 */}
+						<div
+							className="grid-box-slider carousel-item active p-2"
+							data-aos="zoom-in-up"
+						>
+							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
+								<div className="blog-img">
+									<img src={computer} alt="" className="img-fluid" />
+								</div>
+							</div>
+							<div className="bottom-title mb-3">
+								7 Steps To An Effective Marketing Strategy
+							</div>
+							<div className="blog-owner align-items-center d-flex mb-3">
+								<div className="user me-3">
+									<img src={user} alt="" className="img-fluid" />
+								</div>
+								<div className="extra-text d-flex">
+									<span>Adrian Harris</span>
+									<span>|</span>
+									<span>Nov 5, 2018</span>
+								</div>
+							</div>
+							<div className="bottom-deatils mb-3">
+								There are many variations of passages of Lorem Ipsum available,
+								but the majority have ....
+							</div>
+						</div>
+						{/* testimonial 3 */}
+						<div
+							className="grid-box-slider carousel-item active p-2"
+							data-aos="zoom-in-up"
+						>
+							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
+								<div className="blog-img">
+									<img src={computer1} alt="" className="img-fluid" />
+								</div>
+							</div>
+							<div className="bottom-title mb-3">
+								7 Steps To An Effective Marketing Strategy
+							</div>
+							<div className="blog-owner align-items-center d-flex mb-3">
+								<div className="user me-3">
+									<img src={user} alt="" className="img-fluid" />
+								</div>
+								<div className="extra-text d-flex">
+									<span>Adrian Harris</span>
+									<span>|</span>
+									<span>Nov 5, 2018</span>
+								</div>
+							</div>
+							<div className="bottom-deatils mb-3">
+								There are many variations of passages of Lorem Ipsum available,
+								but the majority have ....
+							</div>
+						</div>
+						{/* testimonial 4 */}
+						<div
+							className="grid-box-slider carousel-item active p-2"
+							data-aos="zoom-in-up"
+						>
+							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
+								<div className="blog-img">
+									<img src={computer2} alt="" className="img-fluid" />
 								</div>
 							</div>
 							<div className="bottom-title mb-3">
@@ -113,91 +207,7 @@ export default class PreviousNextMethods extends Component {
 								<div className="user me-3">
 									<img src={user} alt="" className="img-fluid" />
 								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
-									<span>Nov 5, 2018</span>
-								</div>
-							</div>
-							<div className="bottom-deatils mb-3">
-								There are many variations of passages of Lorem Ipsum available,
-								but the majority have ....
-							</div>
-						</div>
-						{/* testimonial 1 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
-							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
-								<div className="blog-img">
-									<img src={bolg} alt="" className="img-fluid" />
-								</div>
-							</div>
-							<div className="bottom-title mb-3">
-								7 Steps To An Effective Marketing Strategy
-							</div>
-							<div className="blog-owner align-items-center d-flex mb-3">
-								<div className="user me-3">
-									<img src={user} alt="" className="img-fluid" />
-								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
-									<span>Nov 5, 2018</span>
-								</div>
-							</div>
-							<div className="bottom-deatils mb-3">
-								There are many variations of passages of Lorem Ipsum available,
-								but the majority have ....
-							</div>
-						</div>
-						{/* testimonial 1 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
-							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
-								<div className="blog-img">
-									<img src={bolg} alt="" className="img-fluid" />
-								</div>
-							</div>
-							<div className="bottom-title mb-3">
-								7 Steps To An Effective Marketing Strategy
-							</div>
-							<div className="blog-owner align-items-center d-flex mb-3">
-								<div className="user me-3">
-									<img src={user} alt="" className="img-fluid" />
-								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
-									<span>Nov 5, 2018</span>
-								</div>
-							</div>
-							<div className="bottom-deatils mb-3">
-								There are many variations of passages of Lorem Ipsum available,
-								but the majority have ....
-							</div>
-						</div>
-						{/* testimonial 1 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
-							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
-								<div className="blog-img">
-									<img src={bolg} alt="" className="img-fluid" />
-								</div>
-							</div>
-							<div className="bottom-title mb-3">
-								7 Steps To An Effective Marketing Strategy
-							</div>
-							<div className="blog-owner align-items-center d-flex mb-3">
-								<div className="user me-3">
-									<img src={user} alt="" className="img-fluid" />
-								</div>
-								<div className="extra-text d-flex">
+								<div className="extra-text d-flex justify-content-between">
 									<span>Adrian Harris</span>
 									<span>|</span>
 									<span>Nov 5, 2018</span>
@@ -209,12 +219,12 @@ export default class PreviousNextMethods extends Component {
 							</div>
 						</div>
 					</Slider>
-					<div className="text-center d-lg-none">
-						<button className="button" onClick={this.previous}>
-							Previous
+					<div className="text-center mt-5 mb-5 d-lg-none">
+						<button className="button-pev shadow me-3" onClick={this.previous}>
+							<i class="fas fa-angle-left"></i>
 						</button>
-						<button className="button" onClick={this.next}>
-							Next
+						<button className="button-next shadow" onClick={this.next}>
+							<i class="fas fa-angle-right"></i>
 						</button>
 					</div>
 				</div>

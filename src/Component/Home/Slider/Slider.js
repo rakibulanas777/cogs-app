@@ -46,7 +46,7 @@ export default class CustomArrows extends Component {
 			prevArrow: <SamplePrevArrow />,
 		};
 		return (
-			<div className="container mt-5 mb-5">
+			<div className="container mt-5 mb-5" data-aos="zoom-in">
 				<div className="slider-book text-center">
 					What they are saying about us
 				</div>
