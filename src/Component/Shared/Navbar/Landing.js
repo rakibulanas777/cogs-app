@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../Images/logo.png";
+import logo from "../../Images/Folder 1.png";
 const Landing = () => {
 	const [color, setColor] = useState(false);
 	const changeColor = () => {
@@ -15,7 +15,7 @@ const Landing = () => {
 		<nav className="navbar navbar-expand-lg box-shadow d-none d-lg-block">
 			<div className="container mb-3">
 				<a className="navbar-brand" href="/">
-					<img src={logo} alt="" className="logo img-fluid" />
+					<img src={logo} width="130px" alt="" className="logo img-fluid" />
 				</a>
 				<button
 					className="navbar-toggler collapsed"

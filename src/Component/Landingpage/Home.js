@@ -27,7 +27,7 @@ const Home = () => {
 			<div className="container home-center">
 				<div className="row mb-3">
 					{/* left part from box */}
-					<div className="col-11  col-lg-4 mx-auto" data-aos="fade-up">
+					<div className="col-11  col-lg-4 mx-auto">
 						<div className="from-box mb-2 p-4">
 							<div className="from-text mb-2">Request A Quote Now!</div>
 							<form>

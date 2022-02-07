@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../Images/Group 4.png";
+import logo from "../../Images/Folder 1.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
 					className="navbar-brand d-lg-none d-inline-block"
 					href="#"
 				>
-					<img src={logo} className="img-fluid" alt="" />
+					<img src={logo} width="130px" className="img-fluid" alt="" />
 				</NavLink>
 				<button
 					class="navbar-toggler collapsed"

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../Images/Group 4.png";
+import logo from "../Images/Folder 1.png";
 const Shared = () => {
 	const [color, setColor] = useState(false);
 	const changeColor = () => {
@@ -16,7 +16,7 @@ const Shared = () => {
 		<nav className="navbar navbar-expand-lg box-shadow d-none d-lg-block">
 			<div className="container mb-5">
 				<NavLink className="navbar-brand" to="/home">
-					<img src={logo} alt="" className="logo img-fluid" />
+					<img src={logo} width="130px" alt="" className="logo img-fluid" />
 				</NavLink>
 				<button
 					className="navbar-toggler collapsed"
