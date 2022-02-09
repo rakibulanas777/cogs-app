@@ -11,7 +11,7 @@ const Tool = () => {
 						<div className="tool-title mt-5 mb-3">
 							The Best ETL Tool for your <br /> <span>Tech stack</span>
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-flex tool-bottom mt-4">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
@@ -19,19 +19,19 @@ const Tool = () => {
 								Increase in revenue/sales
 							</div>
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-flex tool-bottom mt-4">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
 							<div className="tool-tick-text mx-3">Squeeze more profits</div>
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-flex tool-bottom mt-4">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
 							<div className="tool-tick-text mx-3">Time save percentage</div>
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-flex tool-bottom mt-4">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>

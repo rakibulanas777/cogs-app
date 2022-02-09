@@ -24,7 +24,7 @@ const Navbar = () => {
 		>
 			<div className="container">
 				<NavLink
-					to="/"
+					to="/home"
 					className="navbar-brand d-lg-none d-inline-block"
 					href="#"
 				>
@@ -46,16 +46,24 @@ const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav  ms-auto text-lg-center mb-lg-0">
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link a-link">Product</a>
+							<NavLink to="/product" className="nav-link a-link">
+								Product
+							</NavLink>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link  a-link">Pricing</a>
+							<NavLink to="/pricing" className="nav-link a-link">
+								Pricing
+							</NavLink>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link  a-link">Resources</a>
+							<NavLink to="/blog" className="nav-link  a-link">
+								Resources
+							</NavLink>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
-							<a className="nav-link  a-link">Our Story</a>
+							<NavLink to="/about" className="nav-link  a-link">
+								Our Story
+							</NavLink>
 						</li>
 						<li className="nav-item mx-2 p-2 d-lg-none d-inline-block mb-lg-0 mb-2">
 							<a className="nav-link  a-link">We ‘re Hiring</a>

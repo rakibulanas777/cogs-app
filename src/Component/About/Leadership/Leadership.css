@@ -10,3 +10,39 @@
 	font-size: 18px;
 	color: #36b37e;
 }
+.team-leader-grid {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.team-leader-grid1 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.team-member-name {
+	font-size: 22px;
+	font-weight: 700;
+}
+.team-deatils-bottom {
+	font-weight: 600;
+}
+@media (max-width: 990px) {
+	.team-leader-grid {
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 590px) {
+	.team-member-name {
+		font-size: 18px;
+	}
+	.team-deatils-bottom {
+		font-size: 14px;
+	}
+}
+@media (max-width: 490px) {
+	.team-leader-grid1 {
+		grid-template-columns: 1fr 1fr;
+	}
+}
