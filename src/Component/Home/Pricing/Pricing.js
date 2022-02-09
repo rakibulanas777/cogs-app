@@ -21,7 +21,7 @@ const Pricing = () => {
 					{color ? (
 						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
-								<div className="title-part border-bottom mb-3 p-3">
+								<div className="title-part border-bottom text-lg-start text-center mb-3 p-3">
 									<div className="price mb-3">
 										<span className="me-3 ">$999</span>/month
 									</div>
@@ -71,7 +71,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item border-green shadow p-3">
+						<div className="pricing-grid-item border-green text-lg-start text-center shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -125,7 +125,7 @@ const Pricing = () => {
 					)}
 					{/* price 2 */}
 					{color1 ? (
-						<div className="pricing-grid-item  p-3">
+						<div className="pricing-grid-item text-lg-start text-center p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -189,7 +189,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item border-green shadow p-3">
+						<div className="pricing-grid-item border-green text-lg-start text-center shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -255,7 +255,7 @@ const Pricing = () => {
 					)}
 					{/* price 3 */}
 					{color2 ? (
-						<div className="pricing-grid-item  p-3">
+						<div className="pricing-grid-item text-lg-start text-center p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
@@ -325,7 +325,7 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item border-green shadow p-3">
+						<div className="pricing-grid-item border-green text-lg-start text-center shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">

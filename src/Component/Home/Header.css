@@ -72,6 +72,10 @@
 }
 .design-export {
 	background-color: #2caf82;
+
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .design-export-title {
 	font-size: 25px;
@@ -82,4 +86,11 @@
 	color: white;
 	font-weight: 500;
 	font-size: 18px;
+}
+/*responsive*/
+@media (max-width: 500px) {
+	.left-btn,
+	.right-btn {
+		width: 90%;
+	}
 }

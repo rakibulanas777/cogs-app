@@ -12,3 +12,36 @@
 .tool-tick-text {
 	font-weight: 600;
 }
+.bottom-grid-ETL {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+@media (max-width: 990px) {
+	.tool-title {
+		font-size: 30px;
+	}
+}
+@media (max-width: 500px) {
+	.bottom-grid-ETL {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	.tool-bottom {
+		font-size: 15px;
+	}
+}
+@media (max-width: 500px) {
+	.bottom-grid-ETL {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	.tool-bottom {
+		font-size: 15px;
+	}
+}
+@media (max-width: 350px) {
+	.bottom-grid-ETL {
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
+}

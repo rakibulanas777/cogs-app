@@ -59,10 +59,8 @@ export default class PreviousNextMethods extends Component {
 		return (
 			<div className="blog p-5">
 				<div className="container mt-5 mb-5">
-					<div className="title-blog d-flex justify-content-between mb-3">
-						<h3 data-aos="fade-up" className="text-lg-start text-center">
-							Blog and Articles
-						</h3>
+					<div className="title-blog d-lg-flex justify-content-lg-between d-block text-center mb-3">
+						<h3 className="text-lg-start text-center">Blog and Articles</h3>
 						<div className="d-none d-lg-block">
 							<button
 								className="button-pev shadow me-3"
@@ -81,10 +79,7 @@ export default class PreviousNextMethods extends Component {
 						data-aos="zoom-in"
 					>
 						{/* testimonial 1 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
+						<div className="grid-box-slider carousel-item active p-2">
 							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 								<div className="blog-img">
 									<img src={bolg} alt="" className="img-fluid" />
@@ -97,9 +92,9 @@ export default class PreviousNextMethods extends Component {
 								<div className="user me-3">
 									<img src={user} alt="" className="img-fluid" />
 								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
+								<div className="extra-text d-flex justify-content-between align-items-center">
+									<span className="">Adrian Harris</span>
+									<span className="start mx-3">|</span>
 									<span>Nov 5, 2018</span>
 								</div>
 							</div>
@@ -109,10 +104,7 @@ export default class PreviousNextMethods extends Component {
 							</div>
 						</div>
 						{/* testimonial 2 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
+						<div className="grid-box-slider carousel-item active p-2">
 							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 								<div className="blog-img">
 									<img src={computer} alt="" className="img-fluid" />
@@ -125,9 +117,9 @@ export default class PreviousNextMethods extends Component {
 								<div className="user me-3">
 									<img src={user} alt="" className="img-fluid" />
 								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
+								<div className="extra-text d-flex justify-content-between align-items-center">
+									<span className="">Adrian Harris</span>
+									<span className="start mx-3">|</span>
 									<span>Nov 5, 2018</span>
 								</div>
 							</div>
@@ -137,10 +129,7 @@ export default class PreviousNextMethods extends Component {
 							</div>
 						</div>
 						{/* testimonial 3 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
+						<div className="grid-box-slider carousel-item active p-2">
 							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 								<div className="blog-img">
 									<img src={computer1} alt="" className="img-fluid" />
@@ -153,9 +142,9 @@ export default class PreviousNextMethods extends Component {
 								<div className="user me-3">
 									<img src={user} alt="" className="img-fluid" />
 								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
+								<div className="extra-text d-flex justify-content-between align-items-center">
+									<span className="">Adrian Harris</span>
+									<span className="start mx-3">|</span>
 									<span>Nov 5, 2018</span>
 								</div>
 							</div>
@@ -165,10 +154,7 @@ export default class PreviousNextMethods extends Component {
 							</div>
 						</div>
 						{/* testimonial 4 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
+						<div className="grid-box-slider carousel-item active p-2">
 							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 								<div className="blog-img">
 									<img src={computer2} alt="" className="img-fluid" />
@@ -181,9 +167,9 @@ export default class PreviousNextMethods extends Component {
 								<div className="user me-3">
 									<img src={user} alt="" className="img-fluid" />
 								</div>
-								<div className="extra-text d-flex">
-									<span>Adrian Harris</span>
-									<span>|</span>
+								<div className="extra-text d-flex justify-content-between align-items-center">
+									<span className="">Adrian Harris</span>
+									<span className="start mx-3">|</span>
 									<span>Nov 5, 2018</span>
 								</div>
 							</div>
@@ -193,10 +179,7 @@ export default class PreviousNextMethods extends Component {
 							</div>
 						</div>
 						{/* testimonial 1 */}
-						<div
-							className="grid-box-slider carousel-item active p-2"
-							data-aos="zoom-in-up"
-						>
+						<div className="grid-box-slider carousel-item active p-2">
 							<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 								<div className="blog-img">
 									<img src={bolg} alt="" className="img-fluid" />
@@ -209,9 +192,9 @@ export default class PreviousNextMethods extends Component {
 								<div className="user me-3">
 									<img src={user} alt="" className="img-fluid" />
 								</div>
-								<div className="extra-text d-flex justify-content-between">
-									<span>Adrian Harris</span>
-									<span>|</span>
+								<div className="extra-text d-flex justify-content-between align-items-center">
+									<span className="">Adrian Harris</span>
+									<span className="start mx-3">|</span>
 									<span>Nov 5, 2018</span>
 								</div>
 							</div>

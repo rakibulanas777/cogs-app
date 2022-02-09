@@ -1,5 +1,6 @@
 import React from "react";
 import bottom from "../Assets/Images/Rectangle 13.png";
+import bottom1 from "../Images/Rectangle 13.png";
 import agility from "../Assets/Images/iteration 1.png";
 import user from "../Images/user 1.svg";
 import coin from "../Images/coins 1.svg";
@@ -12,8 +13,11 @@ const Main = () => {
 				<div className="main-title  text-center">
 					Delivering Comprehensive Insights for
 				</div>
-				<div className="text-center mb-5">
+				<div className="text-center d-lg-block d-none mb-5">
 					<img src={bottom} alt="" width="130px" className="img-fluid" />
+				</div>
+				<div className="text-center mb-5 d-lg-none">
+					<img src={bottom1} alt="" width="130px" className="img-fluid" />
 				</div>
 				<div className="main-grid mb-3">
 					<div className="main-grid-box p-5" data-aos="zoom-in">

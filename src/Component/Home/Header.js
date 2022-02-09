@@ -27,7 +27,7 @@ const Header = () => {
 						Sales. Inventory. Buy Box. Reviews. Competitors. Traffic.
 					</div>
 					{/* button part  */}
-					<div className="button-part mb-5 text-center">
+					<div className="button-part mb-5 mt-3 text-center">
 						<button className="left-btn mx-3 mb-lg-0 mb-3" data-aos="fade-up">
 							Request a Demo
 						</button>

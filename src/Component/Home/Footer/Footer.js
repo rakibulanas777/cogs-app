@@ -11,7 +11,7 @@ const Footer = () => {
 			<div className="container retalive">
 				<div className="col-10 col-lg-8 position-footer p-4 mx-auto">
 					<div className="position-footer-title1 text-center mt-5 mb-4">
-						Ready to Boost Your Sales and Outrun your Competitions?
+						Ready to Boost Your Sales and <br /> Outrun your Competitions?
 					</div>
 					<div className="button-part mb-5 text-center">
 						<button className="right-btn-footer mx-3 mb-lg-0 mb-3">

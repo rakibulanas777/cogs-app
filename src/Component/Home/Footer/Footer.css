@@ -32,14 +32,18 @@ ul {
 .position-footer {
 	background-color: #36b37e;
 	border-radius: 10px;
+	background: url("../../Images/Oval.png");
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .footer-grid2 {
 	display: grid;
-	margin-top: 10rem;
+	margin-top: 12rem;
 	grid-template-columns: 2.5fr 1.5fr 1fr 1fr 1.5fr 2fr;
 }
 .position-footer-title1 {
-	font-size: 20px;
+	font-size: 31px;
 	color: white;
 	font-weight: 700;
 }
@@ -99,6 +103,7 @@ ul {
 @media (max-width: 1057px) {
 	.footer-grid2 {
 		grid-template-columns: 1fr 1fr;
+		margin-top: 16rem;
 	}
 }
 @media (max-width: 574px) {

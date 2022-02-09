@@ -8,6 +8,10 @@
 }
 .extra-text {
 	font-size: 12px;
+	font-weight: 600;
+}
+.start {
+	font-size: 24px;
 }
 .button-pev {
 	width: 45px;
