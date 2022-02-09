@@ -19,20 +19,21 @@ const Products = () => {
 						className="col-11 col-lg-6 mx-auto mt-lg-0 mt-5"
 						data-aos="fade-up"
 					>
-						<div className="products-title mb-3">
+						<div className="products-title text-center text-lg-start mb-3">
 							One <span>platform</span> for all the information your{" "}
 							<span>business needs.</span>
 						</div>
-						<div className="products-deatils mb-3">
+						<div className="products-deatils text-center text-lg-start mb-3">
 							Sales. Inventory. Buy Box. Reviews. Competitors. Traffic.
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+
+						<div className="d-lg-flex tool-bottom d-none mt-3">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
 							<div className="tool-tick-text mx-3">Track daily records,</div>
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-lg-flex tool-bottom d-none mt-3">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
@@ -40,15 +41,42 @@ const Products = () => {
 								Compare weekly performance
 							</div>
 						</div>
-						<div className="d-flex tool-bottom mt-3">
+						<div className="d-lg-flex tool-bottom d-none mt-3">
 							<div className="img-tick">
 								<img src={tick} width="20px" alt="" />
 							</div>
 							<div className="tool-tick-text mx-3">Set annual goals.</div>
 						</div>
+						<img src={image} alt="" className="img-fluid d-lg-none  w-100" />
+						<div className="bottom-grid-ETL mb-5 d-lg-none">
+							<div className="d-flex tool-bottom mt-3">
+								<div className="img-tick">
+									<img src={tick} width="20px" alt="" />
+								</div>
+								<div className="tool-tick-text mx-3">Track daily records,</div>
+							</div>
+							<div className="d-flex tool-bottom mt-3">
+								<div className="img-tick">
+									<img src={tick} width="20px" alt="" />
+								</div>
+								<div className="tool-tick-text mx-3">
+									Compare weekly performance
+								</div>
+							</div>
+							<div className="d-flex tool-bottom mt-3">
+								<div className="img-tick">
+									<img src={tick} width="20px" alt="" />
+								</div>
+								<div className="tool-tick-text mx-3">Set annual goals.</div>
+							</div>
+						</div>
 					</div>
 					<div className="col-11 col-lg-6 mx-auto" data-aos="fade-down">
-						<img src={image} alt="" className="img-fluid w-100" />
+						<img
+							src={image}
+							alt=""
+							className="img-fluid d-none d-lg-block  w-100"
+						/>
 					</div>
 				</div>
 			</div>

@@ -2,7 +2,7 @@
 	background-color: #ecf4f1;
 }
 .product-feature-title {
-	font-size: 23px;
+	font-size: 28px;
 	font-weight: 700;
 }
 .product-feature-deatils {
@@ -17,7 +17,22 @@
 }
 .title-feature {
 	font-weight: 700;
+	font-size: 20px;
 }
 .price-tick-text {
 	font-size: 14px;
+}
+.left-feature {
+	width: 80px;
+	height: 80px;
+	background-color: #6effc242;
+	border-radius: 50%;
+	position: relative;
+}
+.cloud {
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }

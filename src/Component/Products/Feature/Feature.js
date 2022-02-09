@@ -1,7 +1,7 @@
 import React from "react";
 import "./Feature.css";
 import cloud from "../../Images/cloud 1.svg";
-import tick from "../../Images/Icon.png";
+import tick from "../../Images/Icon.svg";
 import box from "../../Images/package 1.svg";
 import price from "../../Images/price-list 1.svg";
 import question from "../../Images/question 1.svg";
@@ -28,16 +28,20 @@ const Feature = () => {
 						className="col-11 col-lg-10 mx-auto p-4 shadow feature-box mb-4"
 						data-aos="zoom-in"
 					>
-						<div className="d-flex align-items-center flex-lg-row flex-column mb-4">
-							<div className="left-feature mb-3 me-5 mb-lg-0">
-								<img src={cloud} className="img-fluid" alt="" />
+						<div className="d-flex ms-lg-5 ms-0 align-items-center  flex-lg-row flex-column mb-4">
+							<div className="left-feature mb-3 mx-lg-5  mb-lg-0">
+								<img
+									src={cloud}
+									className="cloud text-center img-fluid"
+									alt=""
+								/>
 							</div>
 							<div>
 								<div className="right-part">
 									<div className="title-feature text-lg-start text-center">
 										ONLINE AVAILABILITY
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -46,7 +50,7 @@ const Feature = () => {
 											out of stock.
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -64,16 +68,16 @@ const Feature = () => {
 						className="col-11 col-lg-10 mx-auto p-4 shadow feature-box mb-4"
 						data-aos="zoom-in"
 					>
-						<div className="d-flex align-items-center flex-lg-row flex-column mb-4">
-							<div className="left-feature mb-3 me-5 mb-lg-0">
-								<img src={box} className="img-fluid" alt="" />
+						<div className="d-flex ms-lg-5 ms-0 align-items-center flex-lg-row flex-column mb-4">
+							<div className="left-feature mb-3 mx-5 mb-lg-0">
+								<img src={box} className="img-fluid cloud" alt="" />
 							</div>
 							<div>
 								<div className="right-part">
 									<div className="title-feature text-lg-start text-center">
 										BUY BOX
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -82,7 +86,7 @@ const Feature = () => {
 											won and lost buy box counts.
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -91,7 +95,7 @@ const Feature = () => {
 											buy box.
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -108,16 +112,16 @@ const Feature = () => {
 						className="col-11 col-lg-10 mx-auto p-4 shadow feature-box mb-4"
 						data-aos="zoom-in"
 					>
-						<div className="d-flex align-items-center flex-lg-row flex-column mb-4">
-							<div className="left-feature mb-3 me-5 mb-lg-0">
-								<img src={price} className="img-fluid" alt="" />
+						<div className="d-flex ms-lg-5 ms-0 align-items-center flex-lg-row flex-column mb-4">
+							<div className="left-feature mb-3 mx-5 mb-lg-0">
+								<img src={price} className="img-fluid cloud" alt="" />
 							</div>
 							<div>
 								<div className="right-part">
 									<div className="title-feature text-lg-start text-center">
 										PRICE CHANGES
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -125,7 +129,7 @@ const Feature = () => {
 											Promote your products with additional oversight.
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -143,16 +147,16 @@ const Feature = () => {
 						className="col-11 col-lg-10 mx-auto p-4 shadow feature-box mb-4"
 						data-aos="zoom-in"
 					>
-						<div className="d-flex align-items-center flex-lg-row flex-column mb-4">
-							<div className="left-feature mb-3 me-5 mb-lg-0">
-								<img src={question} className="img-fluid" alt="" />
+						<div className="d-flex ms-lg-5 ms-0 align-items-center flex-lg-row flex-column mb-4">
+							<div className="left-feature mb-3 mx-5 mb-lg-0">
+								<img src={question} className="cloud img-fluid" alt="" />
 							</div>
 							<div>
 								<div className="right-part">
 									<div className="title-feature text-lg-start text-center">
 										Question and Answers
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -160,7 +164,7 @@ const Feature = () => {
 											Track questions and answers asked about your product
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -177,16 +181,16 @@ const Feature = () => {
 						className="col-11 col-lg-10 mx-auto p-4 shadow feature-box mb-4"
 						data-aos="zoom-in"
 					>
-						<div className="d-flex align-items-center flex-lg-row flex-column mb-4">
-							<div className="left-feature mb-3 me-5 mb-lg-0">
-								<img src={team} className="img-fluid" alt="" />
+						<div className="d-flex ms-lg-5 ms-0 align-items-center flex-lg-row flex-column mb-4">
+							<div className="left-feature mb-3 mx-5 mb-lg-0">
+								<img src={team} className="cloud img-fluid " alt="" />
 							</div>
 							<div>
 								<div className="right-part">
 									<div className="title-feature text-lg-start text-center">
 										REVIEWS / Rating
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -194,7 +198,7 @@ const Feature = () => {
 											Track your review counts.
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
@@ -203,7 +207,7 @@ const Feature = () => {
 											experience.
 										</div>
 									</div>
-									<div className="d-flex tool-bottom mt-3">
+									<div className="d-flex align-items-center tool-bottom mt-3">
 										<div className="img-tick">
 											<img src={tick} width="20px" alt="" />
 										</div>
