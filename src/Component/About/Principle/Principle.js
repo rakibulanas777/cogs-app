@@ -1,4 +1,5 @@
 import React from "react";
+import circle from "../../Images/Ellipse 998.svg";
 import "./Principle.css";
 const Principle = () => {
 	return (
@@ -9,6 +10,7 @@ const Principle = () => {
 						className="col-lg-6 col-11 border-radius p-4 mx-auto"
 						data-aos="fade-up"
 					>
+						<img src={circle} className="circle-position" alt="" />
 						<div className="principle-title mt-5  mb-3 text-center">
 							Our Principles
 						</div>

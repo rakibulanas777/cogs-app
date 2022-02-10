@@ -13,9 +13,10 @@ const Blog = () => {
 			<Shared />
 			<div className="header-blog">
 				<div className="container mt-5 mb-5">
-					<div className="blog-page-title text-center mb-3">
-						Learn from the best to stay ahead in the marketplace with the latest
-						tips and strategies
+					<div className="blog-page-title text-center mb-5">
+						Learn from the <span>best</span> to stay ahead in the <br />{" "}
+						<span>marketplace</span> with the <span>latest tips</span> and{" "}
+						<span>strategies</span>
 					</div>
 					<div className="col-lg-6 col-11 mx-auto">
 						<div className="input-btn-width shadow p-2 d-flex mb-5 w-100">

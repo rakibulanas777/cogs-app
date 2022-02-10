@@ -1,13 +1,23 @@
 .border-radius {
 	border-radius: 50%;
 	width: 400px;
+	position: relative;
 	height: 400px;
-	background-color: #ecf4f1;
+	background-color: #f8f7f7;
+}
+.circle-position {
+	position: absolute;
+	right: 10%;
+	top: -20%;
 }
 .principle-title {
 	font-size: 33px;
 	font-weight: 600;
 	color: #36b37e;
+}
+.principle-deatils {
+	font-weight: 500;
+	font-family: "Open Sans", sans-serif;
 }
 .innovation {
 	font-size: 18px;
@@ -16,5 +26,6 @@
 }
 .right-deatils {
 	font-weight: 600;
+	font-family: "Open Sans", sans-serif;
 	text-align: justify;
 }

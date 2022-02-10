@@ -36,7 +36,6 @@ const About = () => {
 						</div>
 						<div className="col-lg-4 col-11 mx-auto " data-aos="fade-up">
 							<div className="ourstory d-none d-lg-flex mb-3  align-items-center">
-								<img src={line} alt="" />
 								<div className="ourstory-title">Our Story</div>
 							</div>
 							<div className="ourstory-deatils mb-3">
@@ -74,7 +73,6 @@ const About = () => {
 						{/* right part  */}
 						<div className="col-lg-4 col-11 mx-auto" data-aos="fade-down">
 							<div className="ourstory d-none mb-3 d-lg-flex align-items-center">
-								<img src={line} alt="" />
 								<div className="ourstory-title text-lg-start text-center ">
 									Our Mission
 								</div>

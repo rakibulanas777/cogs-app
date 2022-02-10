@@ -32,7 +32,6 @@ const Leadership = () => {
 							</div>
 						</div>
 						<div className="ourstory d-none mb-3 d-lg-flex align-items-center">
-							<img src={line} alt="" />
 							<div className="ourstory-title text-lg-start text-center ">
 								The Founders
 							</div>
@@ -83,7 +82,6 @@ const Leadership = () => {
 							</div>
 						</div>
 						<div className="ourstory d-none mb-3 d-lg-flex align-items-center">
-							<img src={line} alt="" />
 							<div className="ourstory-title text-lg-start text-center ">
 								Co-Founders
 							</div>
@@ -143,16 +141,15 @@ const Leadership = () => {
 						</div>
 						<div className="ourstory mb-3 d-lg-none align-items-center">
 							<div className="ourstory-title text-lg-start text-center ">
-								Co-Founders
+								Head of Depts
 							</div>
 							<div className="text-center">
 								<img src={line} className="text-center" alt="" />
 							</div>
 						</div>
 						<div className="ourstory d-none mb-3 d-lg-flex align-items-center">
-							<img src={line} alt="" />
 							<div className="ourstory-title text-lg-start text-center ">
-								Co-Founders
+								Head of Depts
 							</div>
 						</div>
 						<div className="team-leader-grid1 mb-5">

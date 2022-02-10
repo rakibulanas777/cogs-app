@@ -60,10 +60,7 @@ export default class Clatest extends Component {
 			<div className="d-lg-none">
 				<Slider ref={(c) => (this.slider = c)} {...settings} data-aos="zoom-in">
 					{/* testimonial 1 */}
-					<div
-						className="grid-box-slider carousel-item active p-2"
-						data-aos="zoom-in-up"
-					>
+					<div className="grid-box-slider carousel-item active p-2">
 						<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 							<div className="blog-img">
 								<img src={bolg} alt="" className="img-fluid" />
@@ -76,9 +73,9 @@ export default class Clatest extends Component {
 							<div className="user me-3">
 								<img src={user} alt="" className="img-fluid" />
 							</div>
-							<div className="extra-text d-flex">
-								<span>Adrian Harris</span>
-								<span>|</span>
+							<div className="extra-text d-flex justify-content-between align-items-center">
+								<span className="">Adrian Harris</span>
+								<span className="start mx-3">|</span>
 								<span>Nov 5, 2018</span>
 							</div>
 						</div>
@@ -88,10 +85,7 @@ export default class Clatest extends Component {
 						</div>
 					</div>
 					{/* testimonial 2 */}
-					<div
-						className="grid-box-slider carousel-item active p-2"
-						data-aos="zoom-in-up"
-					>
+					<div className="grid-box-slider carousel-item active p-2">
 						<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
 							<div className="blog-img">
 								<img src={computer} alt="" className="img-fluid" />
@@ -104,9 +98,84 @@ export default class Clatest extends Component {
 							<div className="user me-3">
 								<img src={user} alt="" className="img-fluid" />
 							</div>
-							<div className="extra-text d-flex">
-								<span>Adrian Harris</span>
-								<span>|</span>
+							<div className="extra-text d-flex justify-content-between align-items-center">
+								<span className="">Adrian Harris</span>
+								<span className="start mx-3">|</span>
+								<span>Nov 5, 2018</span>
+							</div>
+						</div>
+						<div className="bottom-deatils mb-3">
+							There are many variations of passages of Lorem Ipsum available,
+							but the majority have ....
+						</div>
+					</div>
+					{/* testimonial 3 */}
+					<div className="grid-box-slider carousel-item active p-2">
+						<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
+							<div className="blog-img">
+								<img src={computer1} alt="" className="img-fluid" />
+							</div>
+						</div>
+						<div className="bottom-title mb-3">
+							7 Steps To An Effective Marketing Strategy
+						</div>
+						<div className="blog-owner align-items-center d-flex mb-3">
+							<div className="user me-3">
+								<img src={user} alt="" className="img-fluid" />
+							</div>
+							<div className="extra-text d-flex justify-content-between align-items-center">
+								<span className="">Adrian Harris</span>
+								<span className="start mx-3">|</span>
+								<span>Nov 5, 2018</span>
+							</div>
+						</div>
+						<div className="bottom-deatils mb-3">
+							There are many variations of passages of Lorem Ipsum available,
+							but the majority have ....
+						</div>
+					</div>
+					{/* testimonial 4 */}
+					<div className="grid-box-slider carousel-item active p-2">
+						<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
+							<div className="blog-img">
+								<img src={computer2} alt="" className="img-fluid" />
+							</div>
+						</div>
+						<div className="bottom-title mb-3">
+							7 Steps To An Effective Marketing Strategy
+						</div>
+						<div className="blog-owner align-items-center d-flex mb-3">
+							<div className="user me-3">
+								<img src={user} alt="" className="img-fluid" />
+							</div>
+							<div className="extra-text d-flex justify-content-between align-items-center">
+								<span className="">Adrian Harris</span>
+								<span className="start mx-3">|</span>
+								<span>Nov 5, 2018</span>
+							</div>
+						</div>
+						<div className="bottom-deatils mb-3">
+							There are many variations of passages of Lorem Ipsum available,
+							but the majority have ....
+						</div>
+					</div>
+					{/* testimonial 1 */}
+					<div className="grid-box-slider carousel-item active p-2">
+						<div className="top-part mb-4 d-flex justify-content-between  align-items-center">
+							<div className="blog-img">
+								<img src={bolg} alt="" className="img-fluid" />
+							</div>
+						</div>
+						<div className="bottom-title mb-3">
+							7 Steps To An Effective Marketing Strategy
+						</div>
+						<div className="blog-owner align-items-center d-flex mb-3">
+							<div className="user me-3">
+								<img src={user} alt="" className="img-fluid" />
+							</div>
+							<div className="extra-text d-flex justify-content-between align-items-center">
+								<span className="">Adrian Harris</span>
+								<span className="start mx-3">|</span>
 								<span>Nov 5, 2018</span>
 							</div>
 						</div>

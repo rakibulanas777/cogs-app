@@ -24,6 +24,14 @@
 	border-radius: 50%;
 	position: relative;
 }
+.blog-slider,
+.blog-feataure {
+	background-color: transparent;
+}
+.latest-post,
+.feature-slider {
+	font-weight: bold;
+}
 .button-next {
 	width: 45px;
 	height: 45px;

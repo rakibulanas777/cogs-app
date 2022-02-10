@@ -1,8 +1,14 @@
 .subscribe-blog {
 	background-color: #36b37e;
 }
+.oval-icon {
+	background: url("../Images/Oval.png");
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 .subscribe-blog-title {
-	font-size: 34px;
+	font-size: 35px;
 	color: white;
 	font-weight: 700;
 }
@@ -14,10 +20,14 @@
 .input-subscribe {
 	width: 100%;
 }
-
+::-webkit-input-placeholder {
+	font-weight: 800px;
+	color: #424242;
+}
 .subscribe {
 	border-radius: 25px;
-	background: #36b37e;
+	background-color: #36b37e;
+
 	border: none;
 	outline: none;
 	color: white;

@@ -72,7 +72,7 @@ const Footer = () => {
 					<div class="footer-col">
 						<ul>
 							<h5>Contact</h5>
-							<div className="last-deatils mb-3">
+							<div className="last-deatils mb-4">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
 								industry.
 							</div>

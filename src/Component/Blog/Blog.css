@@ -1,13 +1,20 @@
 .blog-page-title {
-	font-size: 32px;
-	font-weight: 700;
+	font-size: 35px;
+	font-weight: 800;
+}
+.blog-page-title span {
+	color: #36b37e;
 }
 .blog-page {
-	background-color: #ebebeb;
+	background-color: #fdfdfd;
 }
 .input-btn-width {
 	background-color: white;
 	border-radius: 25px;
+}
+.header-blog {
+	width: 100%;
+	background: url("../Images/Group\ 237702.png");
 }
 .input-subscribe {
 	outline: none;

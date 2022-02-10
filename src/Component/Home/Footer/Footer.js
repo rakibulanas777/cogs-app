@@ -1,10 +1,11 @@
 import React from "react";
-import logo from "../../Images/Group 4.png";
+import logo from "../../Images/Visual_COGS_svg.svg";
 import facebook from "../../Images/Vector (7).svg";
 import m from "../../Images/Vector (8).svg";
 import i from "../../Images/Vector (9).svg";
 import l from "../../Images/Vector (10).svg";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 const Footer = () => {
 	return (
 		<footer class="footer">
@@ -21,29 +22,29 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div class="container ">
-				<div class="row footer-grid2 px-4">
-					<div class="footer-col">
-						<img src={logo} alt="" className="img-fluid mb-3" />
+			<div className="container ">
+				<div className="row footer-grid2 px-4">
+					<div className="footer-col">
+						<img src={logo} alt="" width="100px" className="img-fluid " />
 						<div className="logo-bottom-text">
 							Envisioning Growth through Broader Insights
 						</div>
 					</div>
-					<div class="footer-col">
+					<div className="footer-col">
 						<ul>
 							<h5>Products</h5>
 							<li>
-								<a href="#">Features</a>
+								<NavLink to="/product">Features</NavLink>
 							</li>
 							<li>
-								<a href="#">Pricing</a>
+								<NavLink to="/pricing">Pricing</NavLink>
 							</li>
 							<li>
 								<a href="#">Recent Updates</a>
 							</li>
 						</ul>
 					</div>
-					<div class="footer-col">
+					<div className="footer-col">
 						<ul>
 							<h5>Account</h5>
 
@@ -56,7 +57,7 @@ const Footer = () => {
 						</ul>
 					</div>
 
-					<div class="footer-col">
+					<div className="footer-col">
 						<ul>
 							<h5>Resources</h5>
 							<li>
@@ -71,7 +72,7 @@ const Footer = () => {
 						</ul>
 					</div>
 
-					<div class="footer-col">
+					<div className="footer-col">
 						<ul>
 							<h5>About Us</h5>
 							<li>
@@ -82,10 +83,10 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div class="footer-col">
+					<div className="footer-col">
 						<ul>
 							<h5>Contact</h5>
-							<div className="last-deatils mb-3">
+							<div className="last-deatils mb-4">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
 								industry.
 							</div>
