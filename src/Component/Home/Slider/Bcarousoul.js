@@ -57,13 +57,10 @@ export default class Latestpost extends Component {
 			],
 		};
 		return (
-			<div className="blog-slider mt-5 mb-5 p-5">
+			<div className="blog-slider mt-5 mb-5 p-3 p-lg-5" id="blog">
 				<div className="container mt-5 mb-5">
-					<div className="title-blog d-flex justify-content-between mb-3">
-						<h3
-							data-aos="fade-up"
-							className="text-lg-start latest-post text-center"
-						>
+					<div className="title-blog d-lg-flex d-block text-center justify-content-between mb-3">
+						<h3 className="text-lg-start latest-post text-center">
 							Latest Post
 						</h3>
 						<div className="d-none d-lg-block">

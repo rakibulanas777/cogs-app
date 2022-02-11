@@ -23,23 +23,20 @@ const Principle = () => {
 					</div>
 					<div className="col-lg-6 col-11 mx-auto">
 						<div className="divider mb-5" data-aos="zoom-in">
-							<div className="innovation mb-2">Innovation</div>
+							<div className="innovation mb-2 text-lg-start text-center">
+								Innovation
+							</div>
 							<div className="right-deatils mb-3">
 								We believe that growth is infinite, and we always work towards
 								improvement and expansion through frequent feedbacks and
 								creatively solve arising problems.
 							</div>
 						</div>
+
 						<div className="divider mb-5" data-aos="zoom-in">
-							<div className="innovation mb-2">Innovation</div>
-							<div className="right-deatils mb-3">
-								We believe that growth is infinite, and we always work towards
-								improvement and expansion through frequent feedbacks and
-								creatively solve arising problems.
+							<div className="innovation mb-2 text-lg-start text-center">
+								Collaboration
 							</div>
-						</div>
-						<div className="divider mb-5" data-aos="zoom-in">
-							<div className="innovation mb-2">Collaboration</div>
 							<div className="right-deatils mb-3">
 								Our teammates row together, creating an effective and healthy
 								working environment. We embrace diversity and the opportunity to
@@ -47,7 +44,9 @@ const Principle = () => {
 							</div>
 						</div>
 						<div className="divider mb-5" data-aos="zoom-in">
-							<div className="innovation mb-2">Customer-centric team</div>
+							<div className="innovation mb-2 text-lg-start text-center">
+								Customer-centric team
+							</div>
 							<div className="right-deatils mb-3">
 								We believe that the customer is the ‘boss’ and every idea in
 								motion starts from the customer itself. We empathize with our
@@ -56,7 +55,7 @@ const Principle = () => {
 							</div>
 						</div>
 						<div className="divider mb-5" data-aos="zoom-in">
-							<div className="innovation mb-2">
+							<div className="innovation mb-2 text-lg-start text-center">
 								Setting Goals and Yielding Results
 							</div>
 							<div className="right-deatils mb-3">

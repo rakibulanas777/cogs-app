@@ -14,27 +14,30 @@ const About = () => {
 		<div className="about-page">
 			<Navbar />
 			<Shared />
-			<div className="about-us-header " data-aos="fade-up">
+			<div className="about-us-header " data-aos="fade-up" id="story">
 				<div className="about-us-title text-center mb-3">Who we are?</div>
-				<div className="about-us-deatils mb-5 text-center">
+				<div className="about-us-deatils mb-5 p-3 text-center">
 					Our team of e-commerce specialists is entirely dedicated to customer
-					success <br /> by incrementing sales and comprehensive growth of
-					businesses.
+					success <br className="d-none d-lg-block" /> by incrementing sales and
+					comprehensive growth of businesses.
 				</div>
 			</div>
 			<div className="our-story-bg mb-5 mt-5 p-4">
 				<div className="container mt-5 mb-5">
-					<div className="row align-items-center">
-						{/* left part  */}
-						<div className="ourstory mb-3 d-lg-none align-items-center">
-							<div className="ourstory-title text-lg-start text-center ">
-								Our story
-							</div>
-							<div className="text-center">
-								<img src={line} className="text-center" alt="" />
-							</div>
+					{/* left part  */}
+					<div className="ourstory mb-3 d-lg-none align-items-center">
+						<div className="ourstory-title text-lg-start text-center ">
+							Our story
 						</div>
-						<div className="col-lg-4 col-11 mx-auto " data-aos="fade-up">
+						<div className="text-center">
+							<img src={line} className="text-center" alt="" />
+						</div>
+					</div>
+					<div className="row align-items-center">
+						<div
+							className="col-lg-4 col-11 text-lg-start text-center mx-auto "
+							data-aos="fade-up"
+						>
 							<div className="ourstory d-none d-lg-flex mb-3  align-items-center">
 								<div className="ourstory-title">Our Story</div>
 							</div>
@@ -47,7 +50,9 @@ const About = () => {
 								fulfill the ambition of growing businesses of sellers and
 								vendors to augment sales.
 							</div>
-							<button className="learn-more mb-5">Learn More</button>
+							<button className="learn-more mt-lg-0 mt-3 mb-5 text-lg-start text-center">
+								Learn More
+							</button>
 						</div>
 						{/* right-part  */}
 						<div
@@ -67,11 +72,17 @@ const About = () => {
 								<img src={line} className="text-center" alt="" />
 							</div>
 						</div>
-						<div className="col-lg-6 col-11 mx-auto" data-aos="fade-up">
+						<div
+							className="col-lg-6 col-11 text-lg-start text-center mx-auto"
+							data-aos="fade-up"
+						>
 							<img src={left} alt="" className="img-fluid mt-5 mb-5" />
 						</div>
 						{/* right part  */}
-						<div className="col-lg-4 col-11 mx-auto" data-aos="fade-down">
+						<div
+							className="col-lg-4 text-lg-start text-center col-11 mx-auto"
+							data-aos="fade-down"
+						>
 							<div className="ourstory d-none mb-3 d-lg-flex align-items-center">
 								<div className="ourstory-title text-lg-start text-center ">
 									Our Mission

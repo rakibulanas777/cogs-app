@@ -66,7 +66,7 @@ const Latest = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-5 col-11 mx-auto order-first order-lg-last ">
+					<div className="col-lg-5 text-lg-start text-center col-11 mx-auto order-first order-lg-last ">
 						<div className="latest-blog-title text-center text-lg-start mt-5 mt-lg-0 mb-3">
 							Latest Blog Post
 						</div>

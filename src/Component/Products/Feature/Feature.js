@@ -8,7 +8,7 @@ import question from "../../Images/question 1.svg";
 import team from "../../Images/team 1.svg";
 const Feature = () => {
 	return (
-		<div className="product-feature p-4">
+		<div className="product-feature p-4" id="feature">
 			<div className="container mt-5 mb-5">
 				<div
 					className="product-feature-title text-center mb-3"

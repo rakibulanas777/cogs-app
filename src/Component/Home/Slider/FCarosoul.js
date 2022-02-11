@@ -57,9 +57,9 @@ export default class Featurepost extends Component {
 			],
 		};
 		return (
-			<div className="blog-feataure p-5">
+			<div className="blog-feataure p-3 p-lg-5">
 				<div className="container mt-5 mb-5">
-					<div className="title-blog d-flex justify-content-between mb-3">
+					<div className="title-blog d-lg-flex d-block text-center justify-content-between mb-3">
 						<h3
 							data-aos="fade-up"
 							className="text-lg-start text-center feature-slider"

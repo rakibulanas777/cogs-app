@@ -21,3 +21,14 @@
 	padding: 8px 18px;
 	border: none;
 }
+@media (max-width: 500px) {
+	.input-subscribe {
+		width: 70%;
+	}
+	::-webkit-input-placeholder {
+		font-size: 12px;
+	}
+	.button {
+		padding: 0.5rem 1rem;
+	}
+}

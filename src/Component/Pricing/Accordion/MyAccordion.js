@@ -4,7 +4,7 @@ const MyAccordion = ({ element }) => {
 	const { question, answer } = element;
 	const [show, setShow] = useState(false);
 	return (
-		<div className="section mb-2 p-2">
+		<div className="section mb-2 p-2" id="faq">
 			<div className="answer-qestion mb-2 p-3">
 				<div
 					className="question-flex mb-3 d-flex justify-content-between align-items-center"

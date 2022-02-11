@@ -20,7 +20,7 @@
 	font-family: "Open Sans", sans-serif;
 }
 .innovation {
-	font-size: 18px;
+	font-size: 21px;
 	font-weight: 700;
 	color: #36b37e;
 }
@@ -28,4 +28,10 @@
 	font-weight: 600;
 	font-family: "Open Sans", sans-serif;
 	text-align: justify;
+}
+@media (max-width: 500px) {
+	.border-radius {
+		width: 100%;
+		height: auto;
+	}
 }

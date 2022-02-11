@@ -1,29 +1,26 @@
 import React, { useState } from "react";
-import tick from "../../Images/Vector (3).png";
-import "./Pricing.css";
-const Pricing = () => {
+import tick from "../Images/Vector (3).png";
+
+const Anual = () => {
 	const [color, setColor] = useState(true);
 	const [color1, setColor1] = useState(false);
 	const [color2, setColor2] = useState(true);
 	return (
 		<div className="pricing p-4 mt-5 mb-5">
 			<div className="container mt-5 mb-5">
-				<div className="pricing-title text-center mt-5 mb-3" data-aos="fade-up">
-					68% of small businesses don’t have a structured or documented <br />
-					conversion rate optimization (CRO) strategy.
+				<div className="package-title text-center mt-5 mb-5" data-aos="fade-up">
+					Amazon Packages
 				</div>
-				<div className="pricing-deatails text-center mb-4" data-aos="fade-up">
-					We plan to change that with our product.
-				</div>
+
 				{/* pricing grid */}
-				<div className="pricing-grid mt-5 mb-5" data-aos="zoom-in" id="pricing">
+				<div className="pricing-grid mt-5 mb-5" data-aos="zoom-in">
 					{/* price 1 */}
 					{color ? (
 						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
-								<div className="title-part border-bottom text-lg-start text-center mb-3 p-3">
+								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 ">$999</span>/month
+										<span className="me-3 ">$999</span>/Annual
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -71,11 +68,11 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item border-green text-lg-start text-center shadow p-3">
+						<div className="pricing-grid-item border-green shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 color ">$999</span>/month
+										<span className="me-3 color ">$999</span>/Annual
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -125,11 +122,11 @@ const Pricing = () => {
 					)}
 					{/* price 2 */}
 					{color1 ? (
-						<div className="pricing-grid-item text-lg-start text-center p-3">
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 ">$1299</span>/month
+										<span className="me-3 ">$1299</span>/Annual
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -189,11 +186,11 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item border-green text-lg-start text-center shadow p-3">
+						<div className="pricing-grid-item border-green shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 color ">$1299</span>/month
+										<span className="me-3 color ">$1299</span>/Annual
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -255,11 +252,11 @@ const Pricing = () => {
 					)}
 					{/* price 3 */}
 					{color2 ? (
-						<div className="pricing-grid-item text-lg-start text-center p-3">
+						<div className="pricing-grid-item  p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 ">$1699</span>/month
+										<span className="me-3 ">$1699</span>/Annual
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -325,11 +322,11 @@ const Pricing = () => {
 							</div>
 						</div>
 					) : (
-						<div className="pricing-grid-item border-green text-lg-start text-center shadow p-3">
+						<div className="pricing-grid-item border-green shadow p-3">
 							<div className="mb-5">
 								<div className="title-part border-bottom mb-3 p-3">
 									<div className="price mb-3">
-										<span className="me-3 color ">$1699</span>/month
+										<span className="me-3 color ">$1699</span>/Annual
 									</div>
 									<div className="price-deatils">Amazon Standard</div>
 								</div>
@@ -401,4 +398,4 @@ const Pricing = () => {
 	);
 };
 
-export default Pricing;
+export default Anual;

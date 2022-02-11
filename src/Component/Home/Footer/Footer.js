@@ -1,11 +1,14 @@
 import React from "react";
-import logo from "../../Images/Visual_COGS_svg.svg";
+import { HashLink } from "react-router-hash-link";
+import { Nav } from "react-bootstrap";
+import logo from "../../Images/Group 4.png";
 import facebook from "../../Images/Vector (7).svg";
 import m from "../../Images/Vector (8).svg";
 import i from "../../Images/Vector (9).svg";
 import l from "../../Images/Vector (10).svg";
 import "./Footer.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
 	return (
 		<footer class="footer">
@@ -25,7 +28,9 @@ const Footer = () => {
 			<div className="container ">
 				<div className="row footer-grid2 px-4">
 					<div className="footer-col">
-						<img src={logo} alt="" width="100px" className="img-fluid " />
+						<Link to="/home">
+							<img src={logo} alt="" className="img-fluid mb-3" />
+						</Link>
 						<div className="logo-bottom-text">
 							Envisioning Growth through Broader Insights
 						</div>
@@ -34,10 +39,14 @@ const Footer = () => {
 						<ul>
 							<h5>Products</h5>
 							<li>
-								<NavLink to="/product">Features</NavLink>
+								<Nav.Link as={HashLink} className="link" to="/product#feature">
+									Features
+								</Nav.Link>
 							</li>
 							<li>
-								<NavLink to="/pricing">Pricing</NavLink>
+								<Nav.Link as={HashLink} className="link" to="/pricing#pricing">
+									Pricing
+								</Nav.Link>
 							</li>
 							<li>
 								<a href="#">Recent Updates</a>
@@ -47,12 +56,15 @@ const Footer = () => {
 					<div className="footer-col">
 						<ul>
 							<h5>Account</h5>
-
 							<li>
-								<a href="#">Login</a>
+								<Nav.Link as={HashLink} className="link" to="/">
+									Log in
+								</Nav.Link>
 							</li>
 							<li>
-								<a href="#">Sign up</a>
+								<Nav.Link as={HashLink} className="link" to="/">
+									Sign up
+								</Nav.Link>
 							</li>
 						</ul>
 					</div>
@@ -61,10 +73,14 @@ const Footer = () => {
 						<ul>
 							<h5>Resources</h5>
 							<li>
-								<a href="#">Blogs</a>
+								<Nav.Link as={HashLink} className="link" to="/blog#blog">
+									Blogs
+								</Nav.Link>
 							</li>
 							<li>
-								<a href="#">FAQs</a>
+								<Nav.Link as={HashLink} className="link" to="/pricing#faq">
+									FAQs
+								</Nav.Link>
 							</li>
 							<li>
 								<a href="#">Documentation</a>
@@ -76,7 +92,9 @@ const Footer = () => {
 						<ul>
 							<h5>About Us</h5>
 							<li>
-								<a href="#">Our story</a>
+								<Nav.Link as={HashLink} className="link" to="/about#story">
+									Our story
+								</Nav.Link>
 							</li>
 							<li>
 								<a href="#"> We’re hiring!</a>
@@ -86,7 +104,7 @@ const Footer = () => {
 					<div className="footer-col">
 						<ul>
 							<h5>Contact</h5>
-							<div className="last-deatils mb-4">
+							<div className="last-deatils mb-3">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
 								industry.
 							</div>

@@ -15,12 +15,25 @@
 .form-check-input:checked {
 	background-color: #36b37e;
 	border-color: #36b37e;
+	background-position: left center;
 }
 .package-title {
 	color: #36b37e;
 	font-weight: 700;
 	font-size: 35px;
 }
+
 .border-green {
 	border: 1px solid #36b37e;
+}
+.monthly-color {
+	color: gray;
+	font-weight: 700;
+}
+.monthly {
+	color: black;
+	font-weight: 700;
+}
+.price {
+	font-weight: 700;
 }
