@@ -19,10 +19,16 @@ const Footer = () => {
 						from across every corner of the globe
 					</div>
 					<div className="embed-responsive w-100 embed-responsive-16by9 mb-3">
-						<iframe
-							className="embed-responsive-item w-100"
+						{/* <iframe
+							
 							src="https://www.google.com/maps"
 							allowfullscreen
+						></iframe> */}
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.5782570740903!2d-74.04839613505668!3d40.727299844617086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2574c5c2d4d1d%3A0x245d7e61e9ae2eb2!2sHamilton%20Park%2C%20Jersey%20City%2C%20NJ%2007302%2C%20USA!5e0!3m2!1sen!2sbd!4v1644507319755!5m2!1sen!2sbd"
+							className="embed-responsive-item w-100"
+							allowfullscreen=""
+							loading="lazy"
 						></iframe>
 					</div>
 					<div className="address mb-3">Address</div>

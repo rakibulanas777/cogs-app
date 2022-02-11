@@ -21,12 +21,12 @@
 	grid-template-columns: 2.5fr 1.5fr 1fr 1fr 1.5fr 2fr;
 }
 .position-footer-office-title {
-	font-size: 28px;
+	font-size: 35px;
 	color: white;
 	font-weight: 700;
 }
 .address {
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 	font-weight: 700;
 }
