@@ -16,8 +16,8 @@ const Header = () => {
 	return (
 		<div className="home">
 			<Navbar />
+			<Shared />
 			<div className="container mb-5">
-				<Shared />
 				<div className="header-home col-10 col-lg-12 mx-auto">
 					<div className="text-center header-text mt-5 mb-3" data-aos="fade-up">
 						Empowering Businesses with Maximized, 360-degree MarketPlace
